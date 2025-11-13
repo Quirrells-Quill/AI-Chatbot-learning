@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'hello'
+
+✅ Search completed in 2.149 seconds
+
+1. Score: 0.9232
+In Fig. 4.11, in which case the LED will glow when the switch  is closed? Fig. 4.11 Iron nail Lemon juice Copper strip Iron nail Pure water Copper strip (a) (b) 10.      Neha keeps the coil exactly the same as in Activity 4.4 but  slides the iron nail out, leaving only the coiled wire. Will the  coi
+
+2. Score: 0.9470
+shoots and the  first leaves appear. Sexual reproduction in animals In animals, gametes are called sperm (male) and eggs  (female). Fertilisation may take place in water, for example,  male and female fish or frogs eject sperm and eggs,  respectively, into the water where they combine to form  the z
+
+3. Score: 0.9559
+precautions  help prevent accidents and make sure  everyone can enjoy the activity while  learning safely.  Safety first Ever heard of ... Probe and ponder          Share your questions                     ? A step further vii applications, showing how science has  contributed to societal developmen
+
+4. Score: 0.9589
+S.N. Bose (1894-1974) Albert Einstein (1879-1955) MATTER IN OUR SURROUNDING S 11 What you have learnt • Matter is made up of small particles. • The matter around us exists in three states— solid, liquid and gas. • The forces of attraction between the particles are maximum in solids, intermediate in 
+
+5. Score: 0.9627
+about science! This chapter takes you  to the next step — entering the investigative  world of science, where curiosity, wonder,  and discovery come together. You will learn  to ask focused questions, design and try out  simple experiments to help answer them,  and use your observation, exploration,
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

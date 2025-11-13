@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'glucose'
+
+✅ Search completed in 2.139 seconds
+
+1. Score: 0.7487
+contain chlorophyll. This process converts carbon dioxide from the atmosphere or dissolved in water into glucose molecules. These glucose molecules are either converted into other substances or used to provide energy for the synthesis of other biologically important molecules (Fig. 14.7). The utilis
+
+2. Score: 0.8218
+coal. Sugar decomposes on heating and  gives carbon and water. As you know,  water consists of hydrogen and oxygen.  Hence, sugar cannot be an element.  It may be stated that sugar is a chemical  compound consisting of the elements  carbon, hydrogen, and oxygen. Let  us  explore  more  about  compou
+
+3. Score: 0.8481
+synthesised near the ER is packaged and dispatched to various targets inside and outside the cell through the Golgi apparatus. Its functions include the storage, modification and packaging of products in vesicles. In some cases, complex sugars may be made from simple sugars in the Golgi apparatus. T
+
+4. Score: 0.8626
+28 Curiosity — Textbook of Science for Grade 8 Immersion into social media is  spurring rise in loneliness 11.4% of India’s population is  diabetic  Fast food is one of the leading causes of  diabetics  Air pollution is one of the leading  risk factors for health Excessive screen watching leads to d
+
+5. Score: 0.8749
+the sugar changes on heating Sugar after  heating 126 Curiosity — Textbook of Science for Grade 8 (b) Sample B Magnet Fig. 8.17: Responses of  Samples A and B to a  magnet          z Mix them thoroughly in a watch glass. Label this mixture  as Sample A (Fig. 8.14).           z Observe it carefully. 
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

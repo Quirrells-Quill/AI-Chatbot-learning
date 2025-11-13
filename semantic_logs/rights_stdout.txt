@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'rights'
+
+✅ Search completed in 2.183 seconds
+
+1. Score: 0.5248
+liberty; • of free and compulsory education for children between the age of six and fourteen years; • of protection against arrest and detention in certain cases. Right against Exploitation • for prohibition of traffic in human beings and forced labour; • for prohibition of employment of children in
+
+2. Score: 0.5473
+freedom as to payment of taxes for promotion of any particular religion; freedom as to attendance at religious instruction or religious worship in certain educational institutions. Cultural and Educational Rights for protection of interests of minorities; for minorities to establish and administ
+
+3. Score: 0.5984
+Part III (Articles 12 – 35) (Subject to certain conditions, some exceptions and reasonable restrictions) guarantees these Fundamental Rights Right to Equality before law and equal protection of laws; irrespective of religion, race, caste, sex or place of birth; of opportunity in public employment
+
+4. Score: 0.6725
+transparent  and has reduced the element of secrecy  in the working of government.  After the year 2000, the whole  approach towards democratic reforms has  changed.  Democratic  reforms  are  considered  as  ‘rights’  of  citizens.  Accordingly, citizens in India have got  Right to Information, edu
+
+5. Score: 0.6965
+of Democracy :  Decentralisation of power is central to  democratic government. Decentralisation  controls the misuse of power and also  creates  opportunities  for  political  1. Working of the Constitution 70 Right to Information (RTI 2005)  :  Citizen empowerment is the essential  condition of de
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'task'
+
+✅ Search completed in 2.144 seconds
+
+1. Score: 0.7669
+and the cart has moved. Do you think that work is done in this situation? Activity _____________11.2 • Think of some situations from your daily life involving work. • List them. • Discuss with your friends whether work is being done in each situation. • Try to reason out your response. • If work is 
+
+2. Score: 0.7950
+doing work on the load?  The way we understand the term ‘work’ in science, work is not done. You climb up the steps of a staircase and reach the second floor of a building just to see the landscape from there.  You may even climb up a tall tree.  If we apply the scientific definition, these activiti
+
+3. Score: 0.7954
+the following activity: Activity _____________11.4 • Lift an object up. Work is done by the force exerted by you on the object.  The object moves upwards. The force you exerted is in the direction of displacement. However, there is the force of gravity acting on the object. • Which one of these forc
+
+4. Score: 0.8199
+CONCEPTION OF WORK To understand the way we view work and define work from the point of view of science, let us consider some situations: Push a pebble lying on a surface. The pebble moves through a distance. You exerted a force on the pebble and the pebble got displaced. In this situation work is d
+
+5. Score: 0.8330
+of situations when the object is not displaced in spite of a force acting on it. • Also think of situations when an object gets displaced in the absence of a force acting on it. • List all the situations that you can think of for each. • Discuss with your friends whether work is done in these situat
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

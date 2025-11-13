@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'mammaliantraits'
+
+✅ Search completed in 2.163 seconds
+
+1. Score: 0.7003
+AVES These are warm-blooded animals and have a four-chambered heart. They lay eggs. There is an outside covering of feathers, and two forelimbs are modified for flight. They breathe through lungs. All birds fall in this category (see Fig. 7.25 for examples). Fig. 7.24: Reptilia SCIENCE 94 7.5.10 (vi
+
+2. Score: 0.7417
+during the lactation period. Animal feed includes: (a) roughage, which is largely fibre, and (b) concentrates, which are low in fibre and contain relatively high levels of proteins and other nutrients. Cattle need balanced rations containing all nutrients in proportionate amounts. Besides such nutri
+
+3. Score: 0.7572
+is scarce and  waterholes dry up in their natural habitat, elephants may wander  in to nearby farms or plantations in search of food like bananas  and sugarcane. This can lead to in crop damage and at times, even  harm people and domestic animals.  Changes in rainfall and temperature affect vegetati
+
+4. Score: 0.7594
+and a three-chambered heart. Respiration is through either gills or lungs. They lay eggs. These animals are found both in water and on land. Frogs, toads and salamanders are some examples (see Fig. 7.23). 7.5.10 (iv) REPTILIA These animals are cold-blooded, have scales and breathe through lungs. Whi
+
+5. Score: 0.7605
+particular function forms a tissue. 6.1 Are Plants and Animals Made of Same Types of Tissues? Let us compare their structure and functions. Do plants and animals have the same structure? Do they both perform similar functions? There are noticeable differences between the two. Plants are stationary o
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

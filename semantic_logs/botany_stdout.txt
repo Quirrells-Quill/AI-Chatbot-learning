@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'botany'
+
+✅ Search completed in 2.153 seconds
+
+1. Score: 0.7189
+another. Examples are moss (Funaria) and Marchantia (see Fig. 7.6). Fig. 7.5: Thallophyta – Algae Cell-wall Chloroplast Pyrenoids Nucleus Cytoplasm Ulothrix Cladophora Ulva Spirogyra Chara Fig. 7.6: Some common bryophytes 7.4.3 PTERIDOPHYTA In this group, the plant body is differentiated into roots,
+
+2. Score: 0.7207
+which will have the largest number of organisms? Q 7.4 Plantae The first level of classification among plants depends on whether the plant body has well- differentiated, distinct parts. The next level of classification is based on whether the differentiated plant body has special tissues for the tra
+
+3. Score: 0.7335
+together. Sexual reproduction in plants Plants use different parts of their flowers to produce  male and female gametes. Pollen grains found inside the  anther of a flower are the male gametes, while ovules,  found deep inside the flower, are the female gametes.  Pollen is carried to another flower 
+
+4. Score: 0.7613
+with a few rows of a second crop, for example, soyabean + maize, or finger millet (bajra) + cowpea (lobia). The crops are selected  such  that  their  nutrient requirements are different. This ensures maximum utilisation of the nutrients supplied, and also prevents pests and diseases from spreading 
+
+5. Score: 0.7708
+or monocots. Plants with seeds having two cotyledons are called dicots (see Figs. 7.9 and 7.10). Marsilea Fern Leaf Stem Root Fig. 7.7: Pteridophyta Pinus Fig. 7.8: Gymnosperms Cycas Fig. 7.9: Monocot Fig. 7.10:  Dicot SCIENCE 88 Activity ______________ 7.2 • Soak seeds of green gram, wheat, maize, 
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

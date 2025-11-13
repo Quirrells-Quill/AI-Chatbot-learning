@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'space-time curvature'
+
+✅ Search completed in 2.164 seconds
+
+1. Score: 0.8673
+the car with time. Thus, the graph shown in Fig 8.4 represents motion with non-uniform speed. 8.4.2 VELOCITY-TIME GRAPHS The variation in velocity with time for an object moving in a straight line can be represented by a velocity-time graph. In this graph, time is represented along the x-axis Fig. 8
+
+2. Score: 0.8695
+Distance-time graphs can be employed under various conditions where objects move with uniform speed, non-uniform speed, remain at rest etc. Fig. 8.3: Distance-time graph of an object moving with uniform speed We know that when an object travels equal distances in equal intervals of time, it moves wi
+
+3. Score: 0.8759
+of an object that moves under uniform acceleration as Activity _____________8.10 • Feroz and his sister Sania go to school on their bicycles. Both of them start at the same time from their home but take different times to reach the school although they follow the same route. Table 8.5 shows the dist
+
+4. Score: 0.8835
+AB × BC +  1 2 (AD × DE) In the case of non-uniformly accelerated motion, velocity-time graphs can have any shape. Fig. 8.7: Velocity-time graphs of an object in non- uniformly accelerated motion. Fig. 8.7(a) shows a velocity-time graph that represents the motion of an object whose velocity is decre
+
+5. Score: 0.9128
+parallel to the time axis? 4. What is the quantity which is measured by the area occupied below the velocity-time graph? Fig. 8.8: Velocity-time graph to obtain the equations of motion SCIENCE 108 = OA × OC +  1 2  (AD × BD) (8.10) Substituting OA = u, OC = AD = t and BD = at, we get s = u × t +  1 
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'vertebrates'
+
+✅ Search completed in 2.147 seconds
+
+1. Score: 0.4132
+with a skeleton made of both bone and cartilage, such as tuna or rohu [see examples in Figs. 7.22 (a) and 7.22 (b)]. Fig. 7.21: A jawless vertebrate: Petromyzon 7.5.10 VERTEBRATA These animals have a true vertebral column and internal skeleton, allowing a completely different distribution of muscle 
+
+2. Score: 0.5251
+and a three-chambered heart. Respiration is through either gills or lungs. They lay eggs. These animals are found both in water and on land. Frogs, toads and salamanders are some examples (see Fig. 7.23). 7.5.10 (iv) REPTILIA These animals are cold-blooded, have scales and breathe through lungs. Whi
+
+3. Score: 0.5596
+structures that they use as a skeleton. Examples are sea-stars and sea urchins (see Fig. 7.19). Pariplaneta (Cockroach) Palaemon (Prawn) Aranea(Spider) Fig. 7.17: Arthropoda Chiton Octopus Pila Unio Fig. 7.18:  Mollusca 7.5.9 PROTOCHORDATA These animals are bilaterally symmetrical, triploblastic and
+
+4. Score: 0.5869
+‘arthropod’ means ‘jointed legs’). Some familiar examples are prawns, butterflies, houseflies, spiders, scorpions and crabs (see Fig. 7.17). Genital papillae Anus DIVERSITY IN LIVING ORGANISMS 91 Echinus (sea urchin) Asterias (sea-star) Fig. 7.19: Echinodermata Antedon (feather star) Holothuria (sea
+
+5. Score: 0.6070
+Synchiropus splendidus (Mandarin fish) Proboscis Collarette Collar Branchial region Gill pores Dorsally curved genital wings Middosrsal ridge Hepatic caeca Hepatic region Posthepatic region Anus Fig. 7.20: Protochordata: Balanoglossus Spiracle Eye Pelvic fin Dorsal fin Caudal fin Tail Electric ray (
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

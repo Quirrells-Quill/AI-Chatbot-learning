@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'separation of powers'
+
+✅ Search completed in 2.173 seconds
+
+1. Score: 0.6424
+implementing  laws and policies. These officers, often called administrators or  bureaucrats, work under the direction of ministers and ensure  that government departments function smoothly. LET’S EXPLORE If the Executive is part of the Legislature, how do we say  that there is separation of power? 
+
+2. Score: 0.6635
+only describes how the Legislature and  Executive are given power to govern the country, but it also  lists the specific responsibilities of these organs. To ensure  that the powers of the Legislature are used properly and  responsibilities are followed, the Judiciary is given the unique  and critic
+
+3. Score: 0.7685
+ensuring  that no one organ becomes too powerful. LET’S EXPLORE Æ What might happen if one of the organs — Legislature,  Executive, Judiciary — had all the power? How could it  affect the rights of people? Discuss with your classmates  155 Governance and Democracy 6 – The Parliamentary System: Legis
+
+4. Score: 0.7944
+powers, particularly during political crises, like when no party  holds a clear majority in a Lok Sabha election. 152 Exploring Society: India and Beyond | Grade 8 Part 1 2) The Prime Minister and the Council  of Ministers The Prime Minister is the de facto executive authority in India’s  Parliament
+
+5. Score: 0.8037
+Political parties establish the government  and govern the nation. The political party  which gets majority in elections forms the  government. The parties which do not get  majority act as opposition parties.  To act as a link between the  Government and the people : Political  parties work as a li
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

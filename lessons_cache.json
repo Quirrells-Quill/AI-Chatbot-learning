@@ -1,0 +1,20 @@
+{
+  "gravity": {
+    "title": "Gravity — basic ideas",
+    "module_aliases": ["gravity", "gravitational force", "laws of gravity"],
+    "lesson": "Definition: The gravitational force is the force of attraction between any two objects that have mass.\n\nUniversal Law: Proposed by Isaac Newton — every object in the universe attracts every other object with a force that:\n\n- Is directly proportional to the product of their masses (M × m).\n- Is inversely proportional to the square of the distance (d²) between them.\n\nFormula: F = G × (M × m) / d², where G is the universal gravitational constant.\n\nForce of Gravity: The Earth pulls all objects toward its center; this is the gravitational force we experience as weight.\n\nType of Force: It is a non-contact and always attractive force.\n\nExamples:\n- Objects fall to the ground when dropped.\n- The Moon orbits the Earth.\n- Planets revolve around the Sun.\n\nRelation to Motion: The acceleration caused by Earth's gravity is called acceleration due to gravity (g), and the force can be written as F = m × g.\n\nVariation in Gravity: The value of g is slightly greater at the poles than at the equator because Earth’s shape is not a perfect sphere.\n\nImportance: Gravitational force keeps planets, moons, and satellites in their orbits and gives weight to all objects.",
+    "meta": {
+      "created": "2025-11-03T12:00:00",
+      "version": 1
+    }
+  },
+  "photosynthesis": {
+    "title": "Photosynthesis",
+    "module_aliases": ["photosynthesis", "plant photosynthesis", "how plants make food"],
+    "lesson": "Definition: Photosynthesis is the process by which green plants make their own food using sunlight, carbon dioxide, and water.\n\nMain Site: It takes place in the chloroplasts of plant cells, which contain a green pigment called chlorophyll.\n\nEquation:\nCarbon dioxide + Water → Glucose + Oxygen\n(in the presence of sunlight and chlorophyll)\n\nRole of Chlorophyll: Chlorophyll absorbs sunlight and converts it into chemical energy.\n\nFunction of Glucose: The glucose formed provides energy for plant growth and can be stored or used to make other substances.\n\nOxygen Release: Oxygen, produced during photosynthesis, is released into the air and is essential for the survival of animals and humans.\n\nImportance: Photosynthesis maintains the balance of oxygen and carbon dioxide in the atmosphere and supports all life on Earth.\n\nTypes of Plastids:\n- Chromoplasts – contain pigments like chlorophyll (for photosynthesis).\n- Leucoplasts – store starch, oils, and proteins.\n\nSpecial Tissues: Cells containing chlorophyll and performing photosynthesis are known as chlorenchyma.\n\nOverall Importance: It is the foundation of the food chain and helps regulate the Earth's climate by using up carbon dioxide.",
+    "meta": {
+      "created": "2025-11-03T12:01:00",
+      "version": 1
+    }
+  }
+}

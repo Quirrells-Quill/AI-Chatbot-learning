@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'democracy'
+
+✅ Search completed in 2.190 seconds
+
+1. Score: 0.4865
+of Democracy :  Decentralisation of power is central to  democratic government. Decentralisation  controls the misuse of power and also  creates  opportunities  for  political  1. Working of the Constitution 70 Right to Information (RTI 2005)  :  Citizen empowerment is the essential  condition of de
+
+2. Score: 0.5016
+constitution. In this chapter, we will take  a brief overview of the wide-ranging  nature of Indian democracy, important  changes that have taken place in its  political process and steps that have been  taken to establish social justice and  equality. This review will primarily focus  on three area
+
+3. Score: 0.5278
+living process.  Mere  adoption of democracy does not bring  democracy  into  practice.  Alert  and  conscious efforts are required to sustain  democracy. It is necessary to understand  threats to democracy in time and deal  with them in a democratic manner. In this  chapter we will primarily focus 
+
+4. Score: 0.5451
+level of the government it will help  in changing public policies. Public polices  are made through interaction with the  people. Interaction with those who are not  in power is also important for the success  of democracy.  The values of equality, liberty, social  justice, secularism should be resp
+
+5. Score: 0.5617
+and such other  things reduces people’s confidence in the  democratic process. process is another serious problem for  democratic systems. Sometimes political  parties give candidature to people having  a criminal background, facing  criminal  allegations and allegations of corruption.  This increas
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

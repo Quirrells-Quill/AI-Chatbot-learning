@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'sharkconservation'
+
+✅ Search completed in 2.174 seconds
+
+1. Score: 0.7417
+Synchiropus splendidus (Mandarin fish) Proboscis Collarette Collar Branchial region Gill pores Dorsally curved genital wings Middosrsal ridge Hepatic caeca Hepatic region Posthepatic region Anus Fig. 7.20: Protochordata: Balanoglossus Spiracle Eye Pelvic fin Dorsal fin Caudal fin Tail Electric ray (
+
+2. Score: 0.8382
+sound or infrasound. If we could hear infrasound we would hear the vibrations of a pendulum just as we hear the vibrations of the wings of a bee. Rhinoceroses communicate using infrasound of frequency as low as 5 Hz. Whales and elephants produce sound in the infrasound range. It is observed that som
+
+3. Score: 0.8446
+and a three-chambered heart. Respiration is through either gills or lungs. They lay eggs. These animals are found both in water and on land. Frogs, toads and salamanders are some examples (see Fig. 7.23). 7.5.10 (iv) REPTILIA These animals are cold-blooded, have scales and breathe through lungs. Whi
+
+4. Score: 0.8571
+with a skeleton made of both bone and cartilage, such as tuna or rohu [see examples in Figs. 7.22 (a) and 7.22 (b)]. Fig. 7.21: A jawless vertebrate: Petromyzon 7.5.10 VERTEBRATA These animals have a true vertebral column and internal skeleton, allowing a completely different distribution of muscle 
+
+5. Score: 0.8590
+companion animals? Reflect on the questions framed by your  friends and try to answer ... ..................................................................................... ..................................................................................... ......................................
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

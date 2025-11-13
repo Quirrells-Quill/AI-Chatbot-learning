@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'whalebehavior'
+
+✅ Search completed in 2.179 seconds
+
+1. Score: 0.9367
+are experiencing; on account of  this, the glaciers in some places in the Himalayas are melting  at a rate faster than precipitation can replace them. This has  implications on water security for the populations living in the  plains dependent on the ‘water tower’.  DON’T MISS OUT Æ Traditionally, c
+
+2. Score: 0.9392
+s. If the speed of sound in salt water is 1531 m/s, how far away is the cliff? As mentioned earlier, bats search out prey and fly in dark night by emitting and detecting reflections of ultrasonic waves. The high-pitched ultrasonic squeaks of the bat are reflected from the obstacles or prey and retur
+
+3. Score: 0.9750
+sound or infrasound. If we could hear infrasound we would hear the vibrations of a pendulum just as we hear the vibrations of the wings of a bee. Rhinoceroses communicate using infrasound of frequency as low as 5 Hz. Whales and elephants produce sound in the infrasound range. It is observed that som
+
+4. Score: 0.9777
+helpful  bacteria can also decompose animal wastes like dung! From Activity 2.7, we can also infer that microorganisms not  only help in plant growth, but also clean our environment by  breaking down waste. Fig. 2.10: Recycling of nutrients by making  manure 20 Curiosity — Textbook of Science for Gr
+
+5. Score: 0.9822
+fine grains. These grains later get flushed out with urine. 12.5.1SONAR The acronym SONAR stands for SOund Navigation And Ranging. Sonar is a device that uses ultrasonic waves to measure the distance, direction and speed of underwater objects. How does the sonar work? Sonar consists of a transmitter
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

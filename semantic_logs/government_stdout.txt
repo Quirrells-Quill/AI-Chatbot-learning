@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'government'
+
+✅ Search completed in 2.177 seconds
+
+1. Score: 0.6811
+policies and activities. It is a process of the  Parliament that holds the Executive ‘accountable’ (i.e., it  must justify all actions and decisions). Special committees  also hold meetings where ministries have to explain and  answer questions about their policies. These committees  may include MPs
+
+2. Score: 0.6869
+of Democracy :  Decentralisation of power is central to  democratic government. Decentralisation  controls the misuse of power and also  creates  opportunities  for  political  1. Working of the Constitution 70 Right to Information (RTI 2005)  :  Citizen empowerment is the essential  condition of de
+
+3. Score: 0.6930
+Constitution but at same time specified  the limitations on this power. The Judiciary  has taken a stand that the Parliament  while amending the constitution cannot  alter the basic structure of the constitution. This is important to understand ! Democracy  requires  good  governance  or  best  gove
+
+4. Score: 0.7024
+edXcatiRn and enYirRnmental  pRlic\, reTXire cRllabRratiRn  betZeen the XniRn and states,  e[hibiting the interdependent  natXre RI Iederalism. Fig. 6.11 156 Exploring Society: India and Beyond | Grade 8 Part 1 Feature Union  Government  State Government Constitutional  Head The President of India  
+
+5. Score: 0.7031
+state subject,  creation of separate Department of Ayush  in the States/UTs comes under purview  of  respective  State/UT  Governments.  However. Ministry of Ayush has requested  6tate8T  *overnments  in  diގerent  meetings to create separate Directorates,  deployment  of  manpower  in  SPMU  & DPM
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

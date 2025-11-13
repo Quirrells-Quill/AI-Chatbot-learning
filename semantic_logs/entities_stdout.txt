@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'entities'
+
+✅ Search completed in 2.193 seconds
+
+1. Score: 0.7908
+that join together for a common cause. Consortium: A group of separate  organizations joining together for a common  purpose or goal. Corporate Social Responsibility: The  responsibility of businesses to contribute to  the wellbeing of society and the environment,  beyond just making profits. De fac
+
+2. Score: 0.8044
+like a brick is the basic unit of wall  (Fig. 2.3d). A group of similar cells forms a type of tissue (Fig. 2.7b).  Different tissues are organised to form an organ (Fig. 2.7c). Several  organs work together to form an organ system that performs a  major function of the body (Fig. 2.7d). All the orga
+
+3. Score: 0.8105
+executive functions. Similarly, each state has its  own legislature and executive, called its ‘State Assembly’. Just  as the Parliament has Members of Parliament (MPs) who make  laws, there are Members of Legislative Assembly (MLAs) who  formulate laws on subjects that are on the ‘State List’ and on
+
+4. Score: 0.8640
+connected. To understand such interconnections, we must study  the components of our environment. 12.1 How Do We Experience and Interpret  Our Surroundings? You have learnt in Curiosity, Grade 6 chapter ‘Diversity in the  Living World’ that different habitats have different kinds of plants  and ani
+
+5. Score: 0.8708
+Kunapa Jala (a  liquid fertiliser made from animal and plant waste by the process of  fermentation; that breaks complex substances into simpler ones) and  other composted materials. Our scientific heritage Snapshots             A habitat is a place that provides the right conditions for an organism
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

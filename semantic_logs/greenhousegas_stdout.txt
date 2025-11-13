@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'greenhousegas'
+
+✅ Search completed in 2.221 seconds
+
+1. Score: 0.6257
+through different forms by the various physical and biological activities. 14.4.3 (i) THE GREENHOUSE EFFECT Recall the reading taken by you under (iii) in Activity 14.1. Heat is trapped by glass, and hence the temperature inside a glass enclosure will be much higher than the surroundings. This pheno
+
+2. Score: 0.6336
+gas, which does not let the heat escape. This  is called the greenhouse effect (Fig. 13.2), and it  makes Venus even hotter than Mercury, which is  relatively closer to the Sun. On the Earth also, gases  like carbon dioxide in the atmosphere trap heat  by absorbing the radiation given off by the Ear
+
+3. Score: 0.7617
+So while both keep things warm, they do it differently! Fig. 13.3: Greenhouse for plants 13.3 What Makes the Earth Suitable for Life to             Exist ? 13.3.1 Position of the Earth The most important reason why the Earth  can support life is its distance from the  Sun. It is just at the right di
+
+4. Score: 0.7889
+Find out what the consequences of global warming would be. • Also, find out the names of some other greenhouse gases. SCIENCE 200 14.4.4 THE OXYGEN-CYCLE Oxygen is a very abundant element on our Earth. It is found in the elemental form in the atmosphere to the extent of 21%. It also occurs extensive
+
+5. Score: 0.8008
+unsafe. Excess fertilisers and poor waste  disposal pollute soil, reduce crop yield, and spread harmful  substances through the food chain. Protecting them requires  better waste management and sustainable  farming practices. We have seen above that all the Earth system,  such as hydrosphere, biosph
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

@@ -1,0 +1,57 @@
+{
+  "explanation": {
+    "title": "StartingOurLearningJourney",
+    "bullets": [
+      "Wewillbeginbylearningasimplegreeting.",
+      "Greetingsareimportantforstartingconversationsandshowingrespect.",
+      "We'llalsolookatwhatasalutationis."
+    ]
+  },
+  "quiz": [
+    {
+      "id": "Q1",
+      "type": "mcq",
+      "question": "Whichofthefollowingisacommonwaytogreetsomeone?",
+      "choices": [
+        "Ignoringthemcompletely",
+        "Saying 'Hello'",
+        "Walkingawayquickly",
+        "Sneezingloudly"
+      ],
+      "correct_index": 1,
+      "answer_explanation": "'Hello'isafriendlyandcommongreeting."
+    },
+    {
+      "id": "Q2",
+      "type": "open",
+      "question": "Besides'Hello',whatisanotherwordyoucanusetogreetsomeone?",
+      "choices": null,
+      "correct_index": null,
+      "answer_explanation": "Possibleanswersinclude:Hi,Goodmorning,Goodafternoon,Goodevening."
+    },
+    {
+      "id": "Q3",
+      "type": "mcq",
+      "question": "Whichofthefollowingisasalutation?",
+      "choices": [
+        "Goodbye",
+        "Thankyou",
+        "Please",
+        "Excuseme"
+      ],
+      "correct_index": 0,
+      "answer_explanation": "\"Goodbye\"isasalutation,usedtoacknowledgedeparture."
+    }
+  ],
+  "feedback": {
+    "Q1": "Greatjobunderstandingbasicgreetings!",
+    "Q2": "Excellent!Youknowotherwaystogreetpeople.",
+    "Q3": "Goodworkunderstandingsalutations."
+  },
+  "progress_indicator": "Beginningtounderstandbasicgreetings.",
+  "remedial_instructions": [
+    "Reviewexamplesofgreetingsandsalutations.",
+    "Practicegreetingpeopleindifferentways.",
+    "Asksomeonetorole-playgreetingscenarioswithyou."
+  ]
+}

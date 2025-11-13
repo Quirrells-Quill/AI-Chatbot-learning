@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'whaleconservation'
+
+✅ Search completed in 2.176 seconds
+
+1. Score: 0.8383
+important. These include maintenance of temperature and hygienic conditions in housing and poultry feed, as well as prevention and control of diseases and pests. The  housing,  nutritional  and environmental requirements of broilers are somewhat different from those of egg layers. Q Q SCIENCE 212 be
+
+2. Score: 0.8745
+are experiencing; on account of  this, the glaciers in some places in the Himalayas are melting  at a rate faster than precipitation can replace them. This has  implications on water security for the populations living in the  plains dependent on the ‘water tower’.  DON’T MISS OUT Æ Traditionally, c
+
+3. Score: 0.8812
+with a skeleton made of both bone and cartilage, such as tuna or rohu [see examples in Figs. 7.22 (a) and 7.22 (b)]. Fig. 7.21: A jawless vertebrate: Petromyzon 7.5.10 VERTEBRATA These animals have a true vertebral column and internal skeleton, allowing a completely different distribution of muscle 
+
+4. Score: 0.8910
+sound or infrasound. If we could hear infrasound we would hear the vibrations of a pendulum just as we hear the vibrations of the wings of a bee. Rhinoceroses communicate using infrasound of frequency as low as 5 Hz. Whales and elephants produce sound in the infrasound range. It is observed that som
+
+5. Score: 0.8941
+helpful  bacteria can also decompose animal wastes like dung! From Activity 2.7, we can also infer that microorganisms not  only help in plant growth, but also clean our environment by  breaking down waste. Fig. 2.10: Recycling of nutrients by making  manure 20 Curiosity — Textbook of Science for Gr
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

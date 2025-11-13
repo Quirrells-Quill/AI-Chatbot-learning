@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'responsibilities'
+
+✅ Search completed in 2.185 seconds
+
+1. Score: 0.8076
+wastewater  before releasing it into water bodies Fig. 7.25. Use of recycled products as inputs  181 Economic Life Around Us  7 – Factors of Production Apart from land and natural resources, businesses have  responsibilities towards their workers and employees, which  are summarised below.   Fair c
+
+2. Score: 0.8112
+only describes how the Legislature and  Executive are given power to govern the country, but it also  lists the specific responsibilities of these organs. To ensure  that the powers of the Legislature are used properly and  responsibilities are followed, the Judiciary is given the unique  and critic
+
+3. Score: 0.8241
+powers, particularly during political crises, like when no party  holds a clear majority in a Lok Sabha election. 152 Exploring Society: India and Beyond | Grade 8 Part 1 2) The Prime Minister and the Council  of Ministers The Prime Minister is the de facto executive authority in India’s  Parliament
+
+4. Score: 0.8259
+necessary  information to Parliament in a timely and accurate manner. Executive Functions of Parliament We have uncovered a few points on the role of the executive in  the previous sections. We look at this a little more closely now. DON’T MISS OUT Part V of the Indian Constitution begins with Chapt
+
+5. Score: 0.8289
+particular constituency is the responsibility  of the Election Commission.  Please understand Voting is our duty as well as a  responsibility. Government has to  observe the code of  conduct declared by the  Election Commission.  October 1951 in Loksabha Elections. 78 Restructuring of the Constituen
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

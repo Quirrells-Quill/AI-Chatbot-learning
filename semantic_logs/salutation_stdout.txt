@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'salutation'
+
+✅ Search completed in 2.185 seconds
+
+1. Score: 0.9451
+conserved. CONSERVATION LAWS All conservation laws such as conservation of momentum, energy, angular momentum, charge etc. are considered to be fundamental laws in physics. These are based on observations and experiments. It is important to remember that a conservation law cannot be proved. It can b
+
+2. Score: 0.9540
+India, who acts as its chairperson. D Fig. 6.6. Constitution  of India 144 Exploring Society: India and Beyond | Grade 8 Part 1 DON’T MISS OUT The Sengol, a gold-plated, silver sceptre was  symbolically handed over to Pt. Jawaharlal  Nehru, the first Prime Minister of India,  on 14 August 1947 on th
+
+3. Score: 0.9585
+activities with them! We wish you an enjoyable journey through Social Science and its rich  insights into human life and society.     A note on the pronunciation of Sanskrit words Since this textbook is in English, we use the Roman alphabet. But we will  also encounter some words in Sanskrit and 
+
+4. Score: 0.9778
+liquid, the solid component  is known as a solute and the liquid component is known as a solvent.           In a solution formed by mixing two liquids, the component present in less  quantity is known as solute and the other component is called solvent.            In air, nitrogen is considered as
+
+5. Score: 0.9829
+illness last? • How many of you took antibiotics (ask your parents if you had antibiotics)? • How long were those who took antibiotics ill? • How long were those who didn’t take antibiotics ill? • Is there a difference between these two groups? • If yes, why? If not, why not? 13.3.2 MEANS OF SPREAD 
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

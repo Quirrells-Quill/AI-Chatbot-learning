@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'plantanatomy'
+
+✅ Search completed in 2.177 seconds
+
+1. Score: 0.5143
+are found in this tissue (Fig. 6.4 a). This tissue generally stores food. Activity ______________ 6.2 • Take a plant stem and  with the help of your teacher cut into very thin slices or sections. • Now, stain the slices with safranin. Place one neatly cut section on a slide, and put a drop of glycer
+
+2. Score: 0.5934
+different from complex tissues in plants? 4. Differentiate between parenchyma, collenchyma and sclerenchyma on the basis of their cell wall. 5. What are the functions of the stomata? 6. Diagrammatically show the difference between the three types of muscle fibres. 7. What is the specific function of
+
+3. Score: 0.6046
+and mineral  salts. Most of the life processes take place within the cytoplasm. Fig. 2.4: Mount of human cheek cells Nucleus Cytoplasm Cell membrane Chapter 2 — The Invisible Living World: Beyond Our Naked Eye 13 The nucleus regulates all activities that occur within the cell.  It also regulates gro
+
+4. Score: 0.6080
+which will have the largest number of organisms? Q 7.4 Plantae The first level of classification among plants depends on whether the plant body has well- differentiated, distinct parts. The next level of classification is based on whether the differentiated plant body has special tissues for the tra
+
+5. Score: 0.6147
+or monocots. Plants with seeds having two cotyledons are called dicots (see Figs. 7.9 and 7.10). Marsilea Fern Leaf Stem Root Fig. 7.7: Pteridophyta Pinus Fig. 7.8: Gymnosperms Cycas Fig. 7.9: Monocot Fig. 7.10:  Dicot SCIENCE 88 Activity ______________ 7.2 • Soak seeds of green gram, wheat, maize, 
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

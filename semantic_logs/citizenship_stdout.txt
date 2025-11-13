@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'citizenship'
+
+✅ Search completed in 2.138 seconds
+
+1. Score: 0.7606
+citizen who has completed 18  years of age has a right to vote. To  exercise the right to vote, citizen’s name  must be in the voters list. It is the  responsibility of the Election Commission  to prepare the list of eligible voters,  update the existing voter’s list and include  the names of new vo
+
+2. Score: 0.8023
+of Democracy :  Decentralisation of power is central to  democratic government. Decentralisation  controls the misuse of power and also  creates  opportunities  for  political  1. Working of the Constitution 70 Right to Information (RTI 2005)  :  Citizen empowerment is the essential  condition of de
+
+3. Score: 0.8441
+FRATERNITY IN OUR CONSTITUENT ASSEMBLY HEREBY ADOPT, ENACT AND GIVE TO OURSELVES THIS CONSTITUTION. having solemnly resolved to constitute India into a and to secure to all its citizens : social, economic and political; of thought, expression, belief, faith and worship; of status and of opportunity;
+
+4. Score: 0.8453
+including that of Universal  Adult Franchise which guarantees  all adult citizens of the country the  right to vote irrespective of their  social or economic background,  gender, race, or religion. The people of India directly elect  their representatives who become  members of the Lok Sabha. A  maj
+
+5. Score: 0.8462
+transparent  and has reduced the element of secrecy  in the working of government.  After the year 2000, the whole  approach towards democratic reforms has  changed.  Democratic  reforms  are  considered  as  ‘rights’  of  citizens.  Accordingly, citizens in India have got  Right to Information, edu
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

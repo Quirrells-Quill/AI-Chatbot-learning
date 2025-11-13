@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'fishanatomy'
+
+✅ Search completed in 2.174 seconds
+
+1. Score: 0.5509
+Synchiropus splendidus (Mandarin fish) Proboscis Collarette Collar Branchial region Gill pores Dorsally curved genital wings Middosrsal ridge Hepatic caeca Hepatic region Posthepatic region Anus Fig. 7.20: Protochordata: Balanoglossus Spiracle Eye Pelvic fin Dorsal fin Caudal fin Tail Electric ray (
+
+2. Score: 0.6505
+with a skeleton made of both bone and cartilage, such as tuna or rohu [see examples in Figs. 7.22 (a) and 7.22 (b)]. Fig. 7.21: A jawless vertebrate: Petromyzon 7.5.10 VERTEBRATA These animals have a true vertebral column and internal skeleton, allowing a completely different distribution of muscle 
+
+3. Score: 0.6813
+structures that they use as a skeleton. Examples are sea-stars and sea urchins (see Fig. 7.19). Pariplaneta (Cockroach) Palaemon (Prawn) Aranea(Spider) Fig. 7.17: Arthropoda Chiton Octopus Pila Unio Fig. 7.18:  Mollusca 7.5.9 PROTOCHORDATA These animals are bilaterally symmetrical, triploblastic and
+
+4. Score: 0.7184
+are found in this tissue (Fig. 6.4 a). This tissue generally stores food. Activity ______________ 6.2 • Take a plant stem and  with the help of your teacher cut into very thin slices or sections. • Now, stain the slices with safranin. Place one neatly cut section on a slide, and put a drop of glycer
+
+5. Score: 0.7192
+the pond. How  do fish survive in a pond? A pond  provides food, oxygen, shelter, and  space to grow — conditions essential  for survival of organisms. Fish obtain  their biotic needs, such as food, from  small plants and animals, and abiotic  needs, such as oxygen, from water. Other living beings a
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

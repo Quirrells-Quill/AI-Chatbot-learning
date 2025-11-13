@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'goodevening'
+
+✅ Search completed in 2.248 seconds
+
+1. Score: 0.9819
+have to know the absolute final cause;  we can say that someone is suffering from diarrhoea without knowing exactly what has caused the loose motions. We can now easily see that it is possible to be in poor health without actually suffering from a particular disease. Simply not being diseased is not
+
+2. Score: 1.0126
+periodic alerts, and  warnings issued by the India Meteorological Department (IMD).  Thanks to the weather monitoring satellites, today we can  track cyclones and predict their path, helping us reduce their  impact on life and property. Several national and international  organisations work together
+
+3. Score: 1.0146
+situations. A healthy person  can adjust well with peer groups and other members of society.  Let us understand more about health. Ayurveda teaches us that true health is a balance of body, mind, and  surroundings. Following  dinacharya  (daily  routine)  and  ritucharya (seasonal routine) helps mai
+
+4. Score: 1.0161
+experience with your friends. • Now, suspend a table tennis ball or a small plastic ball by a thread from a support [Take a big needle and a thread, put a knot at one end of the thread, and then with the help of the needle pass the thread through the ball]. Touch the ball gently with the prong  of  
+
+5. Score: 1.0169
+sources of entertainment. Various hobbies,  games, drama-film, writing-reading, etc.  are the sources of entertainment. 6.1 Why do we need Entertainment ? Healthy entertainment of excellent  quality is essential for the healthy growth  of one’s personality. Entertainment keeps  our minds lively and 
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

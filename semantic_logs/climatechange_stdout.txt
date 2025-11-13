@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'climatechange'
+
+✅ Search completed in 2.202 seconds
+
+1. Score: 0.6334
+biggest environmental challenges that we face  are climate change, biodiversity loss, and pollution — together  known as the triple planetary crisis. Burning fossil fuels like coal and oil releases greenhouse gases  like carbon dioxide and methane. These trap even more heat in  the atmosphere which 
+
+2. Score: 0.6584
+distance from  the Sun, where water remains liquid, and it has an atmosphere  that provides the oxygen we breathe while shielding us from  harmful ultraviolet rays. But human activities on the planet can  cause small changes in the temperature of the Earth, disrupting  climate patterns, with dangero
+
+3. Score: 0.6954
+through different forms by the various physical and biological activities. 14.4.3 (i) THE GREENHOUSE EFFECT Recall the reading taken by you under (iii) in Activity 14.1. Heat is trapped by glass, and hence the temperature inside a glass enclosure will be much higher than the surroundings. This pheno
+
+4. Score: 0.7373
+sea-water to make their shells. 14.1.1 THE ROLE OF THE ATMOSPHERE IN CLIMATE CONTROL We have talked of the atmosphere covering the Earth, like a blanket. We know that air is a bad conductor of heat. The atmosphere keeps the average temperature of the Earth fairly steady during the day and even durin
+
+5. Score: 0.7498
+actions. For example, a little less or more of oxygen in air, or a  little lower or higher temperature of the Earth, or a little less of  ozone in the atmosphere, could endanger life on the Earth. Countries around the world have made global agreements to protect  the environment. The Montreal Protoc
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

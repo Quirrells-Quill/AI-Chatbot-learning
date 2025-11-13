@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'oceananimals'
+
+✅ Search completed in 2.159 seconds
+
+1. Score: 0.7449
+structures that they use as a skeleton. Examples are sea-stars and sea urchins (see Fig. 7.19). Pariplaneta (Cockroach) Palaemon (Prawn) Aranea(Spider) Fig. 7.17: Arthropoda Chiton Octopus Pila Unio Fig. 7.18:  Mollusca 7.5.9 PROTOCHORDATA These animals are bilaterally symmetrical, triploblastic and
+
+2. Score: 0.7500
+hydration, all essential for health and life. Though much of Earth is covered by  water, we still know little about what lives  deep in the oceans. The hydrosphere is home  to millions of life forms, from tiny planktons to giant whales,  many still being discovered. Oceans, lakes, and rivers provide
+
+3. Score: 0.7521
+of these species live in colonies (corals), while others have a solitary like–span  (Hydra). Jellyfish and sea anemones are common examples (see Fig. 7.13). Sycon Euplectella Spongilla Fig. 7.12:  Porifera Tentacles Sea anemone Tentacles Stinging cell Mouth Epidermis Mesoglea Gastrodermis Gastrovasc
+
+4. Score: 0.7539
+and a three-chambered heart. Respiration is through either gills or lungs. They lay eggs. These animals are found both in water and on land. Frogs, toads and salamanders are some examples (see Fig. 7.23). 7.5.10 (iv) REPTILIA These animals are cold-blooded, have scales and breathe through lungs. Whi
+
+5. Score: 0.7548
+prevents harmful ultraviolet  rays from reaching the surface of the Earth.           The magnetic field of the Earth shields it from high-energy  particles that would otherwise hit the Earth and destroy life.            The atmosphere (consisting of air), hydrosphere (consisting of  water), geosph
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

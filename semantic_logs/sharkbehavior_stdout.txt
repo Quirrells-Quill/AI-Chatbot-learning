@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'sharkbehavior'
+
+✅ Search completed in 2.178 seconds
+
+1. Score: 0.9202
+fine grains. These grains later get flushed out with urine. 12.5.1SONAR The acronym SONAR stands for SOund Navigation And Ranging. Sonar is a device that uses ultrasonic waves to measure the distance, direction and speed of underwater objects. How does the sonar work? Sonar consists of a transmitter
+
+2. Score: 0.9403
+Synchiropus splendidus (Mandarin fish) Proboscis Collarette Collar Branchial region Gill pores Dorsally curved genital wings Middosrsal ridge Hepatic caeca Hepatic region Posthepatic region Anus Fig. 7.20: Protochordata: Balanoglossus Spiracle Eye Pelvic fin Dorsal fin Caudal fin Tail Electric ray (
+
+3. Score: 0.9616
+Safety first The activities listed in Table 6.1 should be conducted under the  supervision of an adult. Activity Modes of action Easy or difficult to  perform? Give reasons. Driving an  iron nail By the head of  the nail By the pointed  end of the nail Cutting an  apple with  a knife Using the sharp
+
+4. Score: 0.9704
+s. If the speed of sound in salt water is 1531 m/s, how far away is the cliff? As mentioned earlier, bats search out prey and fly in dark night by emitting and detecting reflections of ultrasonic waves. The high-pitched ultrasonic squeaks of the bat are reflected from the obstacles or prey and retur
+
+5. Score: 0.9748
+sound or infrasound. If we could hear infrasound we would hear the vibrations of a pendulum just as we hear the vibrations of the wings of a bee. Rhinoceroses communicate using infrasound of frequency as low as 5 Hz. Whales and elephants produce sound in the infrasound range. It is observed that som
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

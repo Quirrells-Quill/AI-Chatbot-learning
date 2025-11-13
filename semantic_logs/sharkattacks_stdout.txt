@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'sharkattacks'
+
+✅ Search completed in 2.168 seconds
+
+1. Score: 0.8671
+Synchiropus splendidus (Mandarin fish) Proboscis Collarette Collar Branchial region Gill pores Dorsally curved genital wings Middosrsal ridge Hepatic caeca Hepatic region Posthepatic region Anus Fig. 7.20: Protochordata: Balanoglossus Spiracle Eye Pelvic fin Dorsal fin Caudal fin Tail Electric ray (
+
+2. Score: 0.9173
+and a three-chambered heart. Respiration is through either gills or lungs. They lay eggs. These animals are found both in water and on land. Frogs, toads and salamanders are some examples (see Fig. 7.23). 7.5.10 (iv) REPTILIA These animals are cold-blooded, have scales and breathe through lungs. Whi
+
+3. Score: 0.9323
+catch a prey. 18. How is ultrasound used for cleaning? 19. Explain the working and application of a sonar. 20. A sonar device on a submarine sends out a signal and receives an echo 5 s later. Calculate the speed of sound in water if the distance of the object from the submarine is 3625 m. 21. Explai
+
+4. Score: 0.9387
+energy. The air pressure variation associated with this type of shock waves produces a very sharp and loud sound called the “sonic boom”. The shock waves produced by a supersonic aircraft have enough energy to shatter window glass and even damage buildings. 12.3 Reflection of Sound Sound bounces off
+
+5. Score: 0.9431
+sound or infrasound. If we could hear infrasound we would hear the vibrations of a pendulum just as we hear the vibrations of the wings of a bee. Rhinoceroses communicate using infrasound of frequency as low as 5 Hz. Whales and elephants produce sound in the infrasound range. It is observed that som
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'gravity'
+
+✅ Search completed in 2.696 seconds
+
+1. Score: 0.5801
+observe that an object dropped from a height falls towards the earth. We know that all the planets go around the Sun. The moon goes around the earth. In all these cases, there must be some force acting on the objects, the planets and on the moon. Isaac Newton could grasp that the same force is respo
+
+2. Score: 0.5946
+or a magnetic effect. 72 Curiosity — Textbook of Science for Grade 8 Since all the objects fall towards the Earth, it means the Earth  attracts (pulls) them. The force with which the Earth attracts objects  towards itself is called the gravitational force. The gravitational  force exerted by the Ear
+
+3. Score: 0.6125
+object and the acceleration due to the gravity (g). The weight of an object is the force with which it is attracted towards the earth. We know that F = m × a, (10.13) that is, F = m × g. (10.14) The force of attraction of the earth on an object is known as the weight of the object. It is denoted by 
+
+4. Score: 0.6291
+near the earth. But for objects far from the earth, the acceleration due to gravitational force of earth is given by Eq. (10.7). 10.2.1 TO CALCULATE THE VALUE OF g To calculate the value of g, we should put the values of G, M and R in Eq. (10.9), namely, universal gravitational constant, G = 6.7 × 1
+
+5. Score: 0.6314
+goes on decreasing till the object comes to a stop,  its direction of motion changes and while coming down the  speed goes on increasing. We say that the object  undergoes a vertical motion when it moves in  a vertical direction under the influence of the  gravitational force. 5.5 Weight and Its Mea
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

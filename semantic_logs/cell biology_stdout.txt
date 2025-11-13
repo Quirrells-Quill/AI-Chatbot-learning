@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'cell biology'
+
+✅ Search completed in 4.088 seconds
+
+1. Score: 0.5037
+lysosomes known as suicide bags? 4. Where are proteins synthesised inside the cell? Each cell thus acquires its structure and ability to function because of the organisation of its membrane and organelles in specific ways. The cell thus has a basic structural organisation. This helps the cells to pe
+
+2. Score: 0.5172
+Activity 2.3?  You have observed that cells have three main parts   — a thin outer lining, a central region, and a small  round structure inside it. The outer layer is called the  cell membrane. The round structure in the middle is  the nucleus, which is also covered by a thin membrane. The space  b
+
+3. Score: 0.5255
+organisational unit of life is the cell. • Cells are enclosed by a plasma membrane composed of lipids and proteins. • The cell membrane is an active part of the cell. It regulates the movement of materials between the ordered interior of the cell and the outer environment. • In plant cells, a cell w
+
+4. Score: 0.5560
+are related to the specific function they perform. Some cells like Amoeba have changing shapes. In some cases the cell shape could be more or less fixed and peculiar for a particular type of cell; for example, nerve cells have a typical shape. Each living cell has the capacity to perform certain bas
+
+5. Score: 0.5589
+cells. Most of these cells are specialised to carry out specific functions. Each specialised function is taken up by a different group of cells. Since these cells carry out only a particular function, they do it very efficiently. In human beings, muscle cells contract and relax to cause movement, ne
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

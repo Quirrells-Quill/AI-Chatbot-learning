@@ -1,0 +1,135 @@
+{
+  "explanation": {
+    "title": "Understanding the Judiciary",
+    "bullets": [
+      "The Judiciary interprets and applies laws, resolving disputes and maintaining democracy.",
+      "It ensures all branches of government act within the Constitution's principles.",
+      "The Judiciary safeguards fundamental rights.",
+      "It checks laws passed by Parliament to ensure they don't violate the Constitution.",
+      "The Judiciary can intervene if the Executive violates the Constitution when implementing laws.",
+      "The Constitution is considered a dynamic and living document.",
+      "Significant judicial decisions protect citizens' fundamental rights.",
+      "The basic structure of the constitution includes republican and democratic form of government, Federal structure of the Constitution, Promotion of unity and integrity of the nation, Sovereignty of the nation, Secularism and supremacy of the constitution."
+    ]
+  },
+  "quiz": [
+    {
+      "id": "Q1",
+      "type": "mcq",
+      "difficulty": "recall",
+      "question": "Which branch of government is responsible for interpreting and applying laws?",
+      "choices": [
+        "Legislature",
+        "Executive",
+        "Judiciary",
+        "Parliament"
+      ],
+      "correct_index": 2,
+      "answer_explanation": "The Judiciary is specifically tasked with interpreting and applying the laws of the land."
+    },
+    {
+      "id": "Q2",
+      "type": "tf",
+      "difficulty": "recall",
+      "question": "The Judiciary's role is only to resolve disputes between citizens.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "correct_index": 1,
+      "answer_explanation": "False. The Judiciary also interprets laws, safeguards rights, and ensures constitutional compliance."
+    },
+    {
+      "id": "Q3",
+      "type": "short",
+      "difficulty": "recall",
+      "question": "What document does the Judiciary act as the custodian of?",
+      "choices": null,
+      "correct_index": null,
+      "answer_explanation": "The Constitution"
+    },
+    {
+      "id": "Q4",
+      "type": "reasoning",
+      "difficulty": "reasoning",
+      "question": "Why is it important for the Judiciary to have the power to check the laws passed by the Parliament?",
+      "choices": null,
+      "correct_index": null,
+      "answer_explanation": "To ensure that laws do not violate the Constitution and to protect citizens' rights and freedoms."
+    },
+    {
+      "id": "Q5",
+      "type": "mcq",
+      "difficulty": "apply",
+      "question": "If a new law is passed that limits freedom of speech, which branch of government would likely step in to review the law's constitutionality?",
+      "choices": [
+        "Executive",
+        "Legislature",
+        "Judiciary",
+        "None of the above"
+      ],
+      "correct_index": 2,
+      "answer_explanation": "The Judiciary has the responsibility to ensure that laws are constitutional, including those that might impact freedom of speech."
+    },
+    {
+      "id": "Q6",
+      "type": "reasoning",
+      "difficulty": "analysis",
+      "question": "Explain the system of checks and balances between the Legislature, Executive, and Judiciary.",
+      "choices": null,
+      "correct_index": null,
+      "answer_explanation": "The Legislature makes laws, the Executive implements them, and the Judiciary reviews them to ensure compliance with the Constitution. Each branch limits the power of the others."
+    }
+  ],
+  "correlated_feedback": {
+    "Q1": {
+      "outcome_hint": "Remember the specific responsibilities of each government branch.",
+      "linked_summary_bullet_index": [
+        0
+      ]
+    },
+    "Q2": {
+      "outcome_hint": "Consider all aspects of the Judiciary's role beyond just dispute resolution.",
+      "linked_summary_bullet_index": [
+        0,
+        1,
+        2
+      ]
+    },
+    "Q3": {
+      "outcome_hint": "Think about which document outlines the framework for how the country is governed.",
+      "linked_summary_bullet_index": [
+        1
+      ]
+    },
+    "Q4": {
+      "outcome_hint": "Consider the potential consequences if laws were not reviewed for constitutionality.",
+      "linked_summary_bullet_index": [
+        3
+      ]
+    },
+    "Q5": {
+      "outcome_hint": "Think about the Judiciary's role in safeguarding fundamental rights.",
+      "linked_summary_bullet_index": [
+        2,
+        3
+      ]
+    },
+    "Q6": {
+      "outcome_hint": "Relate the function of each branch to the other, and how they constrain each other.",
+      "linked_summary_bullet_index": [
+        3,
+        4,
+        1
+      ]
+    }
+  },
+  "progress_indicator": "Understanding the roles and responsibilities of the Judiciary.",
+  "remedial_instructions": [
+    "Review the definitions of Legislature, Executive, and Judiciary.",
+    "Focus on the key roles of the Judiciary: interpreting laws, safeguarding rights, and ensuring constitutional compliance.",
+    "Understand how each branch of government checks and balances the others to prevent any one branch from becoming too powerful.",
+    "Re-read examples of cases where the Judiciary has intervened to protect citizens' rights.",
+    "Try to relate the concepts to real-world examples to enhance understanding."
+  ]
+}

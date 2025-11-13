@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'introduction'
+
+✅ Search completed in 2.220 seconds
+
+1. Score: 0.8690
+about science! This chapter takes you  to the next step — entering the investigative  world of science, where curiosity, wonder,  and discovery come together. You will learn  to ask focused questions, design and try out  simple experiments to help answer them,  and use your observation, exploration,
+
+2. Score: 0.9011
+shoots and the  first leaves appear. Sexual reproduction in animals In animals, gametes are called sperm (male) and eggs  (female). Fertilisation may take place in water, for example,  male and female fish or frogs eject sperm and eggs,  respectively, into the water where they combine to form  the z
+
+3. Score: 0.9087
+Who taught the food vendors to cook? Æ What motivated the business owners to start their business? 166 Exploring Society: India and Beyond | Grade 8 Part 1 In economics, the inputs used in a production process or the  factors of production are classified into four types — land,  labour, capital and 
+
+4. Score: 0.9345
+of production Takes risks  by investing  money and  time Makes key  decisions  regarding the  operation and  functioning  of his/her  business Contributes to  the welfare of  society with his/ her innovation An Entrepreneur Fig. 7.16. Tasks performed by an entrepreneur Startup A startup is an  entre
+
+5. Score: 0.9377
+is your final year in the Middle Stage — a stage where you've  been discovering new ideas, asking questions, and building an  understanding of the world around you. By now, you are more  confident in studying Social Science and are ready to go deeper. This  year, our journey will take us on an explo
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

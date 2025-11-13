@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'plants'
+
+✅ Search completed in 2.154 seconds
+
+1. Score: 0.5718
+differences can add up — leading to big differences, and  even new life forms. Let’s explore how reproduction takes place in plants and  animals, and how it helps living beings develop special features  and sometimes change over time.  13.5.1 Asexual reproduction Many plants can reproduces when any 
+
+2. Score: 0.5731
+another. Examples are moss (Funaria) and Marchantia (see Fig. 7.6). Fig. 7.5: Thallophyta – Algae Cell-wall Chloroplast Pyrenoids Nucleus Cytoplasm Ulothrix Cladophora Ulva Spirogyra Chara Fig. 7.6: Some common bryophytes 7.4.3 PTERIDOPHYTA In this group, the plant body is differentiated into roots,
+
+3. Score: 0.5895
+are found in this tissue (Fig. 6.4 a). This tissue generally stores food. Activity ______________ 6.2 • Take a plant stem and  with the help of your teacher cut into very thin slices or sections. • Now, stain the slices with safranin. Place one neatly cut section on a slide, and put a drop of glycer
+
+4. Score: 0.5958
+together. Sexual reproduction in plants Plants use different parts of their flowers to produce  male and female gametes. Pollen grains found inside the  anther of a flower are the male gametes, while ovules,  found deep inside the flower, are the female gametes.  Pollen is carried to another flower 
+
+5. Score: 0.5967
+particular function forms a tissue. 6.1 Are Plants and Animals Made of Same Types of Tissues? Let us compare their structure and functions. Do plants and animals have the same structure? Do they both perform similar functions? There are noticeable differences between the two. Plants are stationary o
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

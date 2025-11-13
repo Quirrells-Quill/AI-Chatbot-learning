@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'cell membrane'
+
+✅ Search completed in 2.203 seconds
+
+1. Score: 0.4810
+can see a large region of each cell enclosed by the cell membrane. This region takes up very little stain. It is called the cytoplasm. The cytoplasm is the fluid content inside the plasma membrane. It also contains many specialised cell organelles. Each of these organelles performs a specific functi
+
+2. Score: 0.4984
+allows or permits the entry and exit of some materials in and out of the cell. It also prevents movement of some other materials. The cell membrane, therefore, is called a selectively permeable membrane. How does the movement of substances take place into the cell? How do substances move out of the 
+
+3. Score: 0.5215
+Activity 2.3?  You have observed that cells have three main parts   — a thin outer lining, a central region, and a small  round structure inside it. The outer layer is called the  cell membrane. The round structure in the middle is  the nucleus, which is also covered by a thin membrane. The space  b
+
+4. Score: 0.5544
+material from its external environment. Such processes are known as endocytosis. Amoeba acquires its food through such processes. THE FUNDAMENTAL UNIT OF LIFE 61 Activity ______________ 5.5 • Find out about electron microscopes from resources in the school library or through the internet. Discuss it
+
+5. Score: 0.5545
+organisational unit of life is the cell. • Cells are enclosed by a plasma membrane composed of lipids and proteins. • The cell membrane is an active part of the cell. It regulates the movement of materials between the ordered interior of the cell and the outer environment. • In plant cells, a cell w
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

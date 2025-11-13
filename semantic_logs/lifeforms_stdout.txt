@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'lifeforms'
+
+✅ Search completed in 2.165 seconds
+
+1. Score: 0.6429
+the cells are living singly or organised into multi-cellular and thus complex organisms (c) whether the cells have a cell-wall and whether they prepare their own food. • All living organisms are divided on the above bases into five kingdoms, namely Monera, Protista, Fungi, Plantae and Animalia. • Th
+
+2. Score: 0.6559
+observe  in these habitats.          z Record your observations in Table 12.1. 192 Curiosity — Textbook of Science for Grade 8 Pond Forest Living beings Non-living things Living beings Non-living things Fish Water Plants Soil Grass Trees Birds Table 12.1: Diﬀerent components of two habitats What com
+
+3. Score: 0.6739
+to the  unaided eye.           They can live in all kinds of environments, and even in the bodies of  plants and animals.           They are either unicellular or multicellular. Bacteria and protozoans  are unicellular; fungi can be unicellular or multicellular, while plants  and animals are multi
+
+4. Score: 0.6835
+are these resources on the Earth? These are the land, the water and the air. The outer crust of the Earth is called the lithosphere. Water covers 75% of the Earth’s surface. It is also found underground. These comprise the hydrosphere. The air that covers the whole of the Earth like a blanket, is ca
+
+5. Score: 0.7044
+is the basis of our identification? In this activity, we had to decide which characteristics were more important in forming the desired category. Hence, we were also deciding which characteristics could be ignored. Now, think of all the different forms in which life occurs on earth. On one hand we h
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

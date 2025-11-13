@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'constitutional amendments'
+
+✅ Search completed in 2.171 seconds
+
+1. Score: 0.7144
+the  Parliament. Legislative Functions of  the Parliament The Constitution lays down the key functions that the Parliament  needs to fulfil. They can be broadly classified under the following  heads:   1. Constitutional functions  2. Lawmaking 3. Executive accountability 4. Financial accountability 
+
+2. Score: 0.7255
+FRATERNITY IN OUR CONSTITUENT ASSEMBLY HEREBY ADOPT, ENACT AND GIVE TO OURSELVES THIS CONSTITUTION. having solemnly resolved to constitute India into a and to secure to all its citizens : social, economic and political; of thought, expression, belief, faith and worship; of status and of opportunity;
+
+3. Score: 0.7487
+Constitution makers wanted me  implemented within a decade after Independence, this didn’t  happen, leaving countless children without access to education. In the early 1990s, someone argued in court that I was inherently  part of the Fundamental Rights in the Constitution, namely, the  Right to Lif
+
+4. Score: 0.7493
+democratic  decentralisation.  One such important  provision is regarding empowering the  local  self-government  make  genuine  democratic governance a reality. After  independence, several attempts were made  towards democratic decentralisation. One  such important attempt is the 73rd and  74th am
+
+5. Score: 0.7933
+executive functions. Similarly, each state has its  own legislature and executive, called its ‘State Assembly’. Just  as the Parliament has Members of Parliament (MPs) who make  laws, there are Members of Legislative Assembly (MLAs) who  formulate laws on subjects that are on the ‘State List’ and on
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

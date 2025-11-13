@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'gravitationalforce'
+
+✅ Search completed in 2.161 seconds
+
+1. Score: 0.5420
+or a magnetic effect. 72 Curiosity — Textbook of Science for Grade 8 Since all the objects fall towards the Earth, it means the Earth  attracts (pulls) them. The force with which the Earth attracts objects  towards itself is called the gravitational force. The gravitational  force exerted by the Ear
+
+2. Score: 0.5476
+force of attraction between objects is called the gravitational force. G 2 Mm F = d Fig. 10.2: The gravitational force between two uniform objects is directed along the line joining their centres. Let two objects A and B of masses M and m lie at a distance d from each other as shown in Fig. 10.2. Le
+
+3. Score: 0.5684
+observe that an object dropped from a height falls towards the earth. We know that all the planets go around the Sun. The moon goes around the earth. In all these cases, there must be some force acting on the objects, the planets and on the moon. Isaac Newton could grasp that the same force is respo
+
+4. Score: 0.6036
+second law of motion that force is the product of mass and acceleration. Let the mass of the stone in activity 10.2 be m. We already know that there is acceleration involved in falling objects due to the gravitational force and is denoted by g. Therefore the magnitude of the gravitational force F wi
+
+5. Score: 0.6212
+objects. Compute the value of this force between you and your friend sitting closeby. Conclude how you do not experience this force! The law is universal in the sense that it is applicable to all bodies, whether the bodies are big or small, whether they are celestial or terrestrial. Inverse-square S
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

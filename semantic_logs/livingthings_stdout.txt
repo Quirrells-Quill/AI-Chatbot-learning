@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'livingthings'
+
+✅ Search completed in 3.184 seconds
+
+1. Score: 0.7387
+observe  in these habitats.          z Record your observations in Table 12.1. 192 Curiosity — Textbook of Science for Grade 8 Pond Forest Living beings Non-living things Living beings Non-living things Fish Water Plants Soil Grass Trees Birds Table 12.1: Diﬀerent components of two habitats What com
+
+2. Score: 0.7939
+connected. To understand such interconnections, we must study  the components of our environment. 12.1 How Do We Experience and Interpret  Our Surroundings? You have learnt in Curiosity, Grade 6 chapter ‘Diversity in the  Living World’ that different habitats have different kinds of plants  and ani
+
+3. Score: 0.8096
+are related to the specific function they perform. Some cells like Amoeba have changing shapes. In some cases the cell shape could be more or less fixed and peculiar for a particular type of cell; for example, nerve cells have a typical shape. Each living cell has the capacity to perform certain bas
+
+4. Score: 0.8197
+Kunapa Jala (a  liquid fertiliser made from animal and plant waste by the process of  fermentation; that breaks complex substances into simpler ones) and  other composted materials. Our scientific heritage Snapshots             A habitat is a place that provides the right conditions for an organism
+
+5. Score: 0.8350
+the cells are living singly or organised into multi-cellular and thus complex organisms (c) whether the cells have a cell-wall and whether they prepare their own food. • All living organisms are divided on the above bases into five kingdoms, namely Monera, Protista, Fungi, Plantae and Animalia. • Th
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

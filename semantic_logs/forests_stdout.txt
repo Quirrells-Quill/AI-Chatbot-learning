@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'forests'
+
+✅ Search completed in 2.194 seconds
+
+1. Score: 0.6407
+the  forest, in limited quantities, for a long  time if we allow it to regenerate. 6 Exploring Society: India and Beyond | Grade 8 Part 1 fed regularly by rain and melting glaciers,  forests renew themselves, soil replenishes  itself through natural processes, and so on.  Solar energy, wind energy, 
+
+2. Score: 0.6409
+for thriving.  We plant trees in areas that may have lost them on account of human  interventions like clearing forests for housing. Planting the types  of trees that were originally growing there restores the ecosystem  — the trees provide food and shelter for birds, squirrels and other  creatures,
+
+3. Score: 0.6564
+is scarce and  waterholes dry up in their natural habitat, elephants may wander  in to nearby farms or plantations in search of food like bananas  and sugarcane. This can lead to in crop damage and at times, even  harm people and domestic animals.  Changes in rainfall and temperature affect vegetati
+
+4. Score: 0.6922
+resources, the  spread of invasive species, unsustainable land use, and pollution  are damaging forests, rivers, scrublands, wetlands, grasslands,  and coastal areas. How can we stop damaging forests, rivers, and wetlands?  Think about what actions you and your community can take to  protect these i
+
+5. Score: 0.7139
+this: a forest naturally filters water,  prevents soil erosion, and provides habitat for animals  — these are ecosystem functions. When we benefit from  clean water, protected farmland, and pollinated crops  because of that forest, we are receiving ecosystem services  from Nature.  Æ A mature tree p
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

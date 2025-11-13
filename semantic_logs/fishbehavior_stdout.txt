@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'fishbehavior'
+
+✅ Search completed in 2.190 seconds
+
+1. Score: 0.7280
+depleted, the demand for more fish can only be met by such culture fisheries, a practice called mariculture. 15.2.3 (ii)  INLAND FISHERIES Fresh water resources include canals, ponds, reservoirs and rivers. Brackish water resources, where seawater and fresh water mix together, such as estuaries and 
+
+2. Score: 0.7309
+the pond. How  do fish survive in a pond? A pond  provides food, oxygen, shelter, and  space to grow — conditions essential  for survival of organisms. Fish obtain  their biotic needs, such as food, from  small plants and animals, and abiotic  needs, such as oxygen, from water. Other living beings a
+
+3. Score: 0.7597
+are experiencing; on account of  this, the glaciers in some places in the Himalayas are melting  at a rate faster than precipitation can replace them. This has  implications on water security for the populations living in the  plains dependent on the ‘water tower’.  DON’T MISS OUT Æ Traditionally, c
+
+4. Score: 0.8065
+the parts of the pond is used. As Catlas are surface feeders, Rohus feed in the middle-zone of the pond, Mrigals and Common Carps are bottom feeders, and Grass Carps feed on the weeds, together these species (Fig. 15.6) can use all the food in the pond without competing with each other. This increas
+
+5. Score: 0.8113
+advantages of composite fish culture? Activity _____________15.5 • Visit a fish farm in fish breeding season and note the following: (1) Varieties of fish in fish farm (2) Types of ponds (3) Feed ingredients used (4) Production capacity of the farm If there are no fish farms close to your locality, 
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

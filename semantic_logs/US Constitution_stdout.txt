@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'US Constitution'
+
+✅ Search completed in 2.988 seconds
+
+1. Score: 0.6691
+FRATERNITY IN OUR CONSTITUENT ASSEMBLY HEREBY ADOPT, ENACT AND GIVE TO OURSELVES THIS CONSTITUTION. having solemnly resolved to constitute India into a and to secure to all its citizens : social, economic and political; of thought, expression, belief, faith and worship; of status and of opportunity;
+
+2. Score: 0.7347
+an end to all the problems.  There are several new problems confronting  us. However what is important is that the  people  in  India  have  developed  a  democratic mind-set. In the next chapter we will study the  election process in India.    Please understand. The  basic  structure  of  the  cons
+
+3. Score: 0.7517
+an objective and fact-based  analysis of various challenges.          Has the ability to explain strategies to tackle internal  challenges. Competency Statements 69 The textbooks of Political Science till  now have helped us to take an overview  of local government, the values and the  philosophy of
+
+4. Score: 0.7874
+the  Parliament. Legislative Functions of  the Parliament The Constitution lays down the key functions that the Parliament  needs to fulfil. They can be broadly classified under the following  heads:   1. Constitutional functions  2. Lawmaking 3. Executive accountability 4. Financial accountability 
+
+5. Score: 0.7924
+Constitution but at same time specified  the limitations on this power. The Judiciary  has taken a stand that the Parliament  while amending the constitution cannot  alter the basic structure of the constitution. This is important to understand ! Democracy  requires  good  governance  or  best  gove
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

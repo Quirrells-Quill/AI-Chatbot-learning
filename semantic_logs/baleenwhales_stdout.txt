@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'baleenwhales'
+
+✅ Search completed in 2.173 seconds
+
+1. Score: 0.9922
+also called  pascal denoted by Pa.           Liquids and gases exert pressure on the walls of a container.            The pressure exerted by the air around us is known as atmospheric  pressure.           Differences in air pressure cause winds to blow.            Warm air rises, creating a low-
+
+2. Score: 1.0047
+AVES These are warm-blooded animals and have a four-chambered heart. They lay eggs. There is an outside covering of feathers, and two forelimbs are modified for flight. They breathe through lungs. All birds fall in this category (see Fig. 7.25 for examples). Fig. 7.24: Reptilia SCIENCE 94 7.5.10 (vi
+
+3. Score: 1.0119
+help farmers to control pest populations, and indirectly help  in healthy crop growth. Migratory birds, Demoiselle Crane visit the  water body of Khichan village in Jodhpur district during the winter  months. Do you know which birds in your area are seen only during  winter? Collect postal stamps an
+
+4. Score: 1.0156
+between  them. The higher air pressure surrounding the balloon pushes  them towards each other. You must have observed that blowing  harder increases the speed at which the balloons approach each  other. What can you infer from this activity? We infer that high  speed winds are accompanied by a redu
+
+5. Score: 1.0170
+compounds such as alkaloids and urea too. Nitrogen is thus an essential nutrient for all life-forms and life would be simple if all these life-forms could use the atmospheric nitrogen directly. However, other than a few forms of bacteria, life-forms are not able to convert the comparatively inert ni
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

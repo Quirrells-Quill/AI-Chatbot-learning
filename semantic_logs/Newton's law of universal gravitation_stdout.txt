@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'Newton's law of universal gravitation'
+
+✅ Search completed in 2.136 seconds
+
+1. Score: 0.4826
+force of attraction between objects is called the gravitational force. G 2 Mm F = d Fig. 10.2: The gravitational force between two uniform objects is directed along the line joining their centres. Let two objects A and B of masses M and m lie at a distance d from each other as shown in Fig. 10.2. Le
+
+2. Score: 0.5543
+observe that an object dropped from a height falls towards the earth. We know that all the planets go around the Sun. The moon goes around the earth. In all these cases, there must be some force acting on the objects, the planets and on the moon. Isaac Newton could grasp that the same force is respo
+
+3. Score: 0.5545
+this. We can assume that the planetary orbits are circular. Suppose the orbital velocity is v and the radius of the orbit is r. Then the force acting on an orbiting planet is given by F∝v2/r. If T denotes the period, then v = 2πr/T, so that v2 ∝ r2/T2. We can rewrite this as v2 ∝ (1/r) × ( r3/T2). S
+
+4. Score: 0.5816
+objects. Compute the value of this force between you and your friend sitting closeby. Conclude how you do not experience this force! The law is universal in the sense that it is applicable to all bodies, whether the bodies are big or small, whether they are celestial or terrestrial. Inverse-square S
+
+5. Score: 0.6285
+if the whole of its mass is concentrated at its centre. Newton transformed the structure of physical science with his three laws of motion and the universal law of gravitation. As the keystone of the scientific revolution of the seventeenth century, Newton’s work combined the contributions of Copern
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

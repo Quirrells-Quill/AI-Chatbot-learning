@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'nucleus'
+
+✅ Search completed in 2.215 seconds
+
+1. Score: 0.6677
+which are visible as rod-shaped structures only when the cell is about to divide. Chromosomes contain information for inheritance of characters from parents to next generation in the form of DNA (Deoxyribo Nucleic Acid) molecules. Chromosomes are composed of DNA and protein. DNA molecules contain th
+
+2. Score: 0.6753
+generally 1. Size: generally small ( 1-10 µm) large ( 5-100 µm) 1 µm = 10–6 m 2. Nuclear region: 2. Nuclear region: _______________ well defined  and _______________ surrounded by a and known as__ nuclear membrane 3. Chromosome: 3. More than one single chromosome 4. Membrane-bound 4. _______________
+
+3. Score: 0.7010
+It is denoted by ‘Z’. All atoms of an element have the same atomic number, Z. In fact, elements are defined by the number of protons they possess. For hydrogen, Z = 1, because in hydrogen atom, only one proton is present in the nucleus. Similarly, for carbon, Z = 6. Therefore, the atomic number is d
+
+4. Score: 0.7025
+distributed in different shells with discrete energy around the nucleus. If the atomic shells are complete, then the atom will be stable and less reactive. • J. Chadwick discovered presence of neutrons in the nucleus of an atom. So, the three sub-atomic particles of an atom are: (i) electrons, (ii) 
+
+5. Score: 0.7112
+Cardiac Shape Number of nuclei Position of nuclei 6.3.4 NERVOUS TISSUE All cells possess the ability to respond to stimuli. However, cells of the nervous tissue are highly specialised for being stimulated and Muscles contain special proteins called contractile proteins, which contract and relax to c
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

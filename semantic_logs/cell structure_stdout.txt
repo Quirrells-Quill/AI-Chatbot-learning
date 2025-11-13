@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'cell structure'
+
+✅ Search completed in 2.219 seconds
+
+1. Score: 0.5135
+not present, if present, they are usually small.  These small vacuoles store certain substances dissolved in water  (Fig. 2.5). So, a cell is not just a simple bag of liquid — it is a complex  structure made up of many different parts, each with its own special  function to allow the cell, and in tu
+
+2. Score: 0.5583
+Activity 2.3?  You have observed that cells have three main parts   — a thin outer lining, a central region, and a small  round structure inside it. The outer layer is called the  cell membrane. The round structure in the middle is  the nucleus, which is also covered by a thin membrane. The space  b
+
+3. Score: 0.5733
+lysosomes known as suicide bags? 4. Where are proteins synthesised inside the cell? Each cell thus acquires its structure and ability to function because of the organisation of its membrane and organelles in specific ways. The cell thus has a basic structural organisation. This helps the cells to pe
+
+4. Score: 0.5744
+and perform all its functions because of these organelles. These organelles together constitute the basic unit called the cell. It is interesting that all cells are found to have the same organelles, no matter what their function is or what organism they are found in. uestions 1. Who discovered cell
+
+5. Score: 0.5936
+which are visible as rod-shaped structures only when the cell is about to divide. Chromosomes contain information for inheritance of characters from parents to next generation in the form of DNA (Deoxyribo Nucleic Acid) molecules. Chromosomes are composed of DNA and protein. DNA molecules contain th
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

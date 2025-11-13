@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'seacreatures'
+
+✅ Search completed in 2.142 seconds
+
+1. Score: 0.7424
+important. These include maintenance of temperature and hygienic conditions in housing and poultry feed, as well as prevention and control of diseases and pests. The  housing,  nutritional  and environmental requirements of broilers are somewhat different from those of egg layers. Q Q SCIENCE 212 be
+
+2. Score: 0.8105
+process in which water evaporates and falls on the land as rain and later flows back into the sea via rivers is known as the water-cycle. This cycle is not as straight-forward and simple as this statement seems to imply. All of the water that falls on the land does not immediately flow back into the
+
+3. Score: 0.8381
+depleted, the demand for more fish can only be met by such culture fisheries, a practice called mariculture. 15.2.3 (ii)  INLAND FISHERIES Fresh water resources include canals, ponds, reservoirs and rivers. Brackish water resources, where seawater and fresh water mix together, such as estuaries and 
+
+4. Score: 0.8384
+sea-water to make their shells. 14.1.1 THE ROLE OF THE ATMOSPHERE IN CLIMATE CONTROL We have talked of the atmosphere covering the Earth, like a blanket. We know that air is a bad conductor of heat. The atmosphere keeps the average temperature of the Earth fairly steady during the day and even durin
+
+5. Score: 0.8399
+structures that they use as a skeleton. Examples are sea-stars and sea urchins (see Fig. 7.19). Pariplaneta (Cockroach) Palaemon (Prawn) Aranea(Spider) Fig. 7.17: Arthropoda Chiton Octopus Pila Unio Fig. 7.18:  Mollusca 7.5.9 PROTOCHORDATA These animals are bilaterally symmetrical, triploblastic and
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

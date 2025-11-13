@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'sunlight'
+
+✅ Search completed in 2.187 seconds
+
+1. Score: 0.6313
+highest  position in the sky on one day to the highest position in the  sky the next day, is 24 hours, and is called the mean solar  day. The highest position of the Sun in the sky can be found by  measuring the length of the shadows cast by an object during  the day. The shadow is shortest when the
+
+2. Score: 0.6633
+Always perform this activity under the supervision of a teacher or  an adult. Do not look towards the Sun or into the mirror reflecting  the Sun. Focus the reflected light only on a piece of paper, not  towards anyone’s face or eyes.          z Take a concave mirror and a sheet of thin paper  or new
+
+3. Score: 0.7203
+the Earth’s revolution  around the Sun and its movement from the spring equinox to  winter equinox and back. The time between successive spring  equinoxes is called the tropical year. Gregorian calendar is based  upon tropical year. We have also learnt earlier that the stars that rise at sunset  cha
+
+4. Score: 0.7313
+the Moon is nearly opposite the  Sun — when the Sun rises in the East, the Moon is almost setting  in the West. On subsequent mornings at sunrise, as its bright  part continues to decrease, the Moon appears to move closer in  the sky to the Sun. When the bright part of the Moon decreases  to a half 
+
+5. Score: 0.7409
+More than half of the  illuminated portion  of Moon can be seen  (Gibbous phase) More than half of the  illuminated portion  of Moon can be seen  (Gibbous phase) Less than half of the  illuminated portion  of Moon can be seen (Crescent phase) Day 12 Day 8 Day 4 A B C D E F G H Day 1 Day 26 Day 22 Da
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

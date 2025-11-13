@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'civics'
+
+✅ Search completed in 3.199 seconds
+
+1. Score: 0.7714
+of Democracy :  Decentralisation of power is central to  democratic government. Decentralisation  controls the misuse of power and also  creates  opportunities  for  political  1. Working of the Constitution 70 Right to Information (RTI 2005)  :  Citizen empowerment is the essential  condition of de
+
+2. Score: 0.7745
+level of the government it will help  in changing public policies. Public polices  are made through interaction with the  people. Interaction with those who are not  in power is also important for the success  of democracy.  The values of equality, liberty, social  justice, secularism should be resp
+
+3. Score: 0.7794
+will guide and encourage them. This textbook has tried to overcome this shortcoming. It  includes interesting information and suitable illustrations with this purpose in mind. The scope of school syllabi of ‘Civics’ and ‘Political Science’ is very exhaustive, which  includes an array of topics start
+
+4. Score: 0.7915
+Present a street play on ‘how to get  rid of addiction ?’. Exercise 100 Studying Political Science... Every citizen in India, whether he lives in village, district or in  city has to face numerous social and political problems every day.  Whom to approach to get domicile certificate, caste certifica
+
+5. Score: 0.8049
+studied ‘History and Civics’ from Std. III to Std. V as a part of  ‘Environmental Studies’. From Std. VI History and Civics are included in the  syllabi independently. Starting from Std. VI, these subjects appear as two separate  sections of a single textbook. We are very happy to hand over to you, 
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

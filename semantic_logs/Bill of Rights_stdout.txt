@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'Bill of Rights'
+
+✅ Search completed in 2.199 seconds
+
+1. Score: 0.6497
+liberty; • of free and compulsory education for children between the age of six and fourteen years; • of protection against arrest and detention in certain cases. Right against Exploitation • for prohibition of traffic in human beings and forced labour; • for prohibition of employment of children in
+
+2. Score: 0.6726
+freedom as to payment of taxes for promotion of any particular religion; freedom as to attendance at religious instruction or religious worship in certain educational institutions. Cultural and Educational Rights for protection of interests of minorities; for minorities to establish and administ
+
+3. Score: 0.7339
+Part III (Articles 12 – 35) (Subject to certain conditions, some exceptions and reasonable restrictions) guarantees these Fundamental Rights Right to Equality before law and equal protection of laws; irrespective of religion, race, caste, sex or place of birth; of opportunity in public employment
+
+4. Score: 0.7616
+language and region.  This is a comprehensive provision for  minorities which fundamentally protects  their right to equality, freedom, right  against exploitation and cultural and  educational rights.  Laws  relating  to  women  and  provisions for representation : In the  post-independence period,
+
+5. Score: 0.7626
+in August 2009, I was passed in the Lok Sabha and  received the President’s assent, becoming an Act. Today, I’ve enabled the creation of legal pathways for children to  attend school, facilitated new school construction, and ensured  free books and uniforms for children.” Bill:  A bill is a  draft o
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

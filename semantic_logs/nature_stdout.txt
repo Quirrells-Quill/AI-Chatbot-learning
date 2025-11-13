@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'nature'
+
+✅ Search completed in 2.162 seconds
+
+1. Score: 0.5748
+for thriving.  We plant trees in areas that may have lost them on account of human  interventions like clearing forests for housing. Planting the types  of trees that were originally growing there restores the ecosystem  — the trees provide food and shelter for birds, squirrels and other  creatures,
+
+2. Score: 0.5816
+the word ‘Nature’ is the totality of life  and non-life forms that are part of our environment but have  not been created by humans. When humans use these for their  sustenance, or create new things from them for consumption,  these elements of Nature become ‘resources’. For example, trees  are part
+
+3. Score: 0.5993
+generally  of water, as  a mark of  respect or  gratitude  7 India and the World: Land and the People 1 – Natural Resources and Their Use We need industries to produce the  goods we consume. The process  also creates wastes that are  frequently discharged into rivers  and other water bodies. Often, 
+
+4. Score: 0.6025
+variety of natural  resources, from wood to marble, and coal to gold. Resources for energy Energy is a cornerstone of modern living — electricity for our  buildings, transportation, and all types of production processes.  This energy can come from diverse natural sources: coal, water,  petroleum, na
+
+5. Score: 0.6139
+chapter on ecology, we have  seen that the Earth is full of life — from trees, shrubs, herbs, to  animals, insects, and tiny organisms invisible to the naked eye.  All living beings, along with the places where they live, make  up the biosphere. This includes land, water, and air, where life  intera
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

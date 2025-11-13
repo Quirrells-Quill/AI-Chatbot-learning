@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'photosynthesis'
+
+✅ Search completed in 3.310 seconds
+
+1. Score: 0.4799
+currency of the cell. The body uses energy stored in ATP for making new chemical compounds and for mechanical work. Mitochondria are strange organelles in the sense that they have their own DNA and ribosomes. Therefore, mitochondria are able to make some of their own proteins. 5.2.5 (V) PLASTIDS Pla
+
+2. Score: 0.5759
+contain chlorophyll. This process converts carbon dioxide from the atmosphere or dissolved in water into glucose molecules. These glucose molecules are either converted into other substances or used to provide energy for the synthesis of other biologically important molecules (Fig. 14.7). The utilis
+
+3. Score: 0.5780
+prepare food by photosynthesis. In the process, oxygen is  released, which is needed for respiration. We have learnt, radiation from the Sun heats the Earth. Some of  this heat is trapped by the atmosphere due to the greenhouse  effect. This effect though mild, keeps the temperature just high  enoug
+
+4. Score: 0.6186
+chromoplasts and leucoplasts. Fig. 5.7: Mitosis Fig. 5.8: Meiosis divides to form two identical daughter cells (Fig. 5.7). The daughter cells have the same number of chromosomes as mother cell. It helps in growth and repair of tissues in organisms. Specific cells of reproductive organs or tissues in
+
+5. Score: 0.6389
+and mineral  salts. Most of the life processes take place within the cytoplasm. Fig. 2.4: Mount of human cheek cells Nucleus Cytoplasm Cell membrane Chapter 2 — The Invisible Living World: Beyond Our Naked Eye 13 The nucleus regulates all activities that occur within the cell.  It also regulates gro
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

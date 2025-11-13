@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'carboncycle'
+
+✅ Search completed in 2.178 seconds
+
+1. Score: 0.7846
+nitrates and nitrites into elemental nitrogen. Thus, there is a nitrogen-cycle in nature in which nitrogen passes from its elemental form in the atmosphere into simple molecules in the soil and water, which get converted to more complex molecules in living beings and back again to the simple nitroge
+
+2. Score: 0.8235
+contain chlorophyll. This process converts carbon dioxide from the atmosphere or dissolved in water into glucose molecules. These glucose molecules are either converted into other substances or used to provide energy for the synthesis of other biologically important molecules (Fig. 14.7). The utilis
+
+3. Score: 0.8763
+to note that even the composition of air is the result of life on Earth. In planets such as Venus and Mars, where no life is known to exist, the major component of the atmosphere is found to be carbon dioxide. In fact, carbon dioxide constitutes up to 95-97% of the atmosphere on Venus and Mars. Euka
+
+4. Score: 0.9027
+Find out what the consequences of global warming would be. • Also, find out the names of some other greenhouse gases. SCIENCE 200 14.4.4 THE OXYGEN-CYCLE Oxygen is a very abundant element on our Earth. It is found in the elemental form in the atmosphere to the extent of 21%. It also occurs extensive
+
+5. Score: 0.9460
+3.0 g of carbon is burnt in 8.00 g oxygen, 11.00 g of carbon dioxide is produced. What mass of carbon dioxide will SCIENCE 44 be formed when 3.00 g  of carbon is burnt in 50.00 g of oxygen? Which law of chemical combination will govern your answer? 3. What are polyatomic ions?  Give examples. 4. Wri
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

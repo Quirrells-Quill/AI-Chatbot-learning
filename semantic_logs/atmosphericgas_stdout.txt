@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'atmosphericgas'
+
+✅ Search completed in 2.214 seconds
+
+1. Score: 0.6488
+atmosphere. The atmospheric  air contains nitrogen, oxygen, argon, carbon dioxide, and other  gases in small quantities. The atmosphere extends up to many  kilometres above the surface of the Earth. Let us find out if the atmosphere exerts pressure by performing  the following activity. Activity 6.3
+
+2. Score: 0.7064
+atmospheric pressure is? The force  exerted by the atmospheric air column over an area 15 cm × 15 cm  is nearly equal to the force of gravity on an object of mass 225 kg  (2250 N). The reason we are not crushed under this weight is that  the pressure inside our bodies is also equal to the atmospheri
+
+3. Score: 0.7234
+sea-water to make their shells. 14.1.1 THE ROLE OF THE ATMOSPHERE IN CLIMATE CONTROL We have talked of the atmosphere covering the Earth, like a blanket. We know that air is a bad conductor of heat. The atmosphere keeps the average temperature of the Earth fairly steady during the day and even durin
+
+4. Score: 0.7505
+planet is also the right size to support an atmosphere. As you  learnt earlier, the atmosphere is the layer of gases that surrounds  the Earth, and it plays a major role in sustaining life. You also  learnt in Chapter 5 that the Earth’s gravity pulls objects towards it.  If Earth were much smaller (
+
+5. Score: 0.7515
+also called  pascal denoted by Pa.           Liquids and gases exert pressure on the walls of a container.            The pressure exerted by the air around us is known as atmospheric  pressure.           Differences in air pressure cause winds to blow.            Warm air rises, creating a low-
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

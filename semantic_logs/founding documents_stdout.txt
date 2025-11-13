@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'founding documents'
+
+✅ Search completed in 2.192 seconds
+
+1. Score: 0.8679
+of six and fourteen years. Note 7he $rticle $ containing Fundamental 'uties was inserted by the Constitution (nd $mendment) $ct,  (with effect from  -anuary ).  (N) was inserted by the Constitution (th $mendment) $ct,  (with effect from  $pril ). Textbook Development Team CA
+
+2. Score: 0.8692
+jurisdiction of the Ministry of  Culture of the Indian Government. The  documents have been preserved here in a  chronological order from 1748. It includes  Chhatrapti Shivaji Maharaj Vastusangrahalay 63 records in English, Arabic, Hindi, Persian,  Sanskrit and Urdu languages. It also  includes reco
+
+3. Score: 0.8935
+FRATERNITY IN OUR CONSTITUENT ASSEMBLY HEREBY ADOPT, ENACT AND GIVE TO OURSELVES THIS CONSTITUTION. having solemnly resolved to constitute India into a and to secure to all its citizens : social, economic and political; of thought, expression, belief, faith and worship; of status and of opportunity;
+
+4. Score: 0.8984
+Linguistics (4) Library  Science  and  Information  Technology  (5)  History  and  Historical  Research  Method (6) Writing of Research Reports  and Articles. 2.      Written Sources of History •        Collecting coins and copper plates with  inscription on them, documents like  official records, p
+
+5. Score: 0.8994
+authenticity of  the document by using criteria such as  lettering style, author’s style of writing,  manufacturing date and type of paper,  stamps of authority, etc.  Such a document  is further scrutinised by a historian with  the help of relevant historical references.  Writing of  Historical  na
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

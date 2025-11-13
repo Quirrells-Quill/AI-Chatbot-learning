@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Desktop\AI project\semantic_search_final.py", line 17, in <module>
+    import faiss
+ModuleNotFoundError: No module named 'faiss'

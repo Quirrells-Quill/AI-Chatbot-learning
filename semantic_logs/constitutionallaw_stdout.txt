@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'constitutionallaw'
+
+✅ Search completed in 2.182 seconds
+
+1. Score: 0.7823
+executive functions. Similarly, each state has its  own legislature and executive, called its ‘State Assembly’. Just  as the Parliament has Members of Parliament (MPs) who make  laws, there are Members of Legislative Assembly (MLAs) who  formulate laws on subjects that are on the ‘State List’ and on
+
+2. Score: 0.7897
+the  Parliament. Legislative Functions of  the Parliament The Constitution lays down the key functions that the Parliament  needs to fulfil. They can be broadly classified under the following  heads:   1. Constitutional functions  2. Lawmaking 3. Executive accountability 4. Financial accountability 
+
+3. Score: 0.8270
+only describes how the Legislature and  Executive are given power to govern the country, but it also  lists the specific responsibilities of these organs. To ensure  that the powers of the Legislature are used properly and  responsibilities are followed, the Judiciary is given the unique  and critic
+
+4. Score: 0.8280
+legislature,  executive, and judiciary, c. Ensuring federalism, and d. Upholding Fundamental Rights and Directive Principles of  State Policy by framing laws and policies. L 146 Exploring Society: India and Beyond | Grade 8 Part 1 2) Lawmaking Among the primary responsibilities of the legislature is
+
+5. Score: 0.8318
+liberty; • of free and compulsory education for children between the age of six and fourteen years; • of protection against arrest and detention in certain cases. Right against Exploitation • for prohibition of traffic in human beings and forced labour; • for prohibition of employment of children in
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

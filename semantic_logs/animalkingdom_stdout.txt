@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'animalkingdom'
+
+✅ Search completed in 2.190 seconds
+
+1. Score: 0.7976
+companion animals? Reflect on the questions framed by your  friends and try to answer ... ..................................................................................... ..................................................................................... ......................................
+
+2. Score: 0.8032
+benefit.  For  example:  Honeybees and flowers.          z Commensalism: One organism  benefits while the other is not  affected. For example: Orchids  on trees.          z Parasitism: One organism  benefits while the other is  harmed. For example: Ticks on  the body of dogs. These interactions are 
+
+3. Score: 0.8040
+AVES These are warm-blooded animals and have a four-chambered heart. They lay eggs. There is an outside covering of feathers, and two forelimbs are modified for flight. They breathe through lungs. All birds fall in this category (see Fig. 7.25 for examples). Fig. 7.24: Reptilia SCIENCE 94 7.5.10 (vi
+
+4. Score: 0.8149
+is scarce and  waterholes dry up in their natural habitat, elephants may wander  in to nearby farms or plantations in search of food like bananas  and sugarcane. This can lead to in crop damage and at times, even  harm people and domestic animals.  Changes in rainfall and temperature affect vegetati
+
+5. Score: 0.8189
+called kingdoms. The classification Whittaker proposed has five kingdoms: Monera, Protista, Fungi, Plantae and Animalia, and is widely used. These groups are formed on the basis of their cell structure, mode and source of nutrition and body organisation. The modification Woese introduced by dividing
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

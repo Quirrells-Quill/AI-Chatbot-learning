@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'acceleration due to gravity'
+
+✅ Search completed in 2.150 seconds
+
+1. Score: 0.4807
+near the earth. But for objects far from the earth, the acceleration due to gravitational force of earth is given by Eq. (10.7). 10.2.1 TO CALCULATE THE VALUE OF g To calculate the value of g, we should put the values of G, M and R in Eq. (10.9), namely, universal gravitational constant, G = 6.7 × 1
+
+2. Score: 0.4883
+that an object experiences acceleration during free fall. From Eq. (10.9), this acceleration experienced by an object is independent of its mass. This means that all objects hollow or solid, big or small, should fall at the same rate. According to a story, Galileo dropped different objects from the 
+
+3. Score: 0.4942
+object and the acceleration due to the gravity (g). The weight of an object is the force with which it is attracted towards the earth. We know that F = m × a, (10.13) that is, F = m × g. (10.14) The force of attraction of the earth on an object is known as the weight of the object. It is denoted by 
+
+4. Score: 0.5310
+s = 10 m Final velocity, v = 0 m s–1 Acceleration due to gravity, g = 9.8 m s–2 Acceleration of the object, a = –9.8 m s–2 (upward motion) (i) v 2 = u2 + 2a s 0 =  u 2 + 2 × (–9.8 m s–2) × 10 m –u 2 = –2 ×  9.8 × 10  m2 s–2 u =  196  m s-1              u = 14 m s-1 (ii) v = u + a t 0 = 14 m s–1 – 9.
+
+5. Score: 0.5553
+little later than the stone. This happens because of air resistance. The air offers resistance due to friction to the motion of the falling objects. The resistance offered by air to the paper is more than the resistance offered to the stone. If we do the experiment in a glass jar from which air has 
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

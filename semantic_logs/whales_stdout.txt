@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'whales'
+
+✅ Search completed in 2.164 seconds
+
+1. Score: 0.8683
+and a three-chambered heart. Respiration is through either gills or lungs. They lay eggs. These animals are found both in water and on land. Frogs, toads and salamanders are some examples (see Fig. 7.23). 7.5.10 (iv) REPTILIA These animals are cold-blooded, have scales and breathe through lungs. Whi
+
+2. Score: 0.9052
+AVES These are warm-blooded animals and have a four-chambered heart. They lay eggs. There is an outside covering of feathers, and two forelimbs are modified for flight. They breathe through lungs. All birds fall in this category (see Fig. 7.25 for examples). Fig. 7.24: Reptilia SCIENCE 94 7.5.10 (vi
+
+3. Score: 0.9154
+with a skeleton made of both bone and cartilage, such as tuna or rohu [see examples in Figs. 7.22 (a) and 7.22 (b)]. Fig. 7.21: A jawless vertebrate: Petromyzon 7.5.10 VERTEBRATA These animals have a true vertebral column and internal skeleton, allowing a completely different distribution of muscle 
+
+4. Score: 0.9185
+Synchiropus splendidus (Mandarin fish) Proboscis Collarette Collar Branchial region Gill pores Dorsally curved genital wings Middosrsal ridge Hepatic caeca Hepatic region Posthepatic region Anus Fig. 7.20: Protochordata: Balanoglossus Spiracle Eye Pelvic fin Dorsal fin Caudal fin Tail Electric ray (
+
+5. Score: 0.9345
+important. These include maintenance of temperature and hygienic conditions in housing and poultry feed, as well as prevention and control of diseases and pests. The  housing,  nutritional  and environmental requirements of broilers are somewhat different from those of egg layers. Q Q SCIENCE 212 be
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

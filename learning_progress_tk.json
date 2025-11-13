@@ -1,0 +1,246 @@
+[
+  {
+    "note": "manual save",
+    "time": 1761986222.011404
+  },
+  {
+    "note": "manual save",
+    "time": 1761998888.7149312
+  },
+  {
+    "module": "good evening",
+    "timestamp": 1762279871.1720798,
+    "iteration": 1,
+    "score": 0.66,
+    "details": [
+      {
+        "id": "Q1",
+        "expected": "It reflects sunlight.",
+        "given": "b",
+        "ok": true,
+        "feedback": "Correct! The Moon shines because it reflects sunlight."
+      },
+      {
+        "id": "Q2",
+        "expected": "At sunset.",
+        "given": "D",
+        "ok": false,
+        "feedback": "Incorrect. A waxing Moon, which is getting brighter, is easiest to see at sunset."
+      },
+      {
+        "id": "Q3",
+        "expected": null,
+        "given": "Beacuse of the earth's revolution",
+        "ok": false,
+        "feedback": "Not quite. The Moon rises at different times each day primarily because of the Moon's orbit around the Earth and the Earth's rotation. The Moon rises about 50 minutes later each day."
+      }
+    ]
+  },
+  {
+    "module": "good evening",
+    "timestamp": 1762280103.679521,
+    "iteration": 2,
+    "score": 0.0,
+    "details": [
+      {
+        "id": "1",
+        "expected": "1",
+        "given": "",
+        "ok": false,
+        "feedback": "The Moon reflects sunlight; it doesn't produce its own light like the Sun."
+      },
+      {
+        "id": "2",
+        "expected": null,
+        "given": "",
+        "ok": false,
+        "feedback": "If the Moon is waxing (getting brighter), the best time to see it is around sunset."
+      },
+      {
+        "id": "3",
+        "expected": "2",
+        "given": "",
+        "ok": false,
+        "feedback": "The Moon rises about 50 minutes later each day."
+      }
+    ]
+  },
+  {
+    "module": "Constitution ",
+    "timestamp": 1762280368.3806846,
+    "iteration": 1,
+    "score": 0.66,
+    "details": [
+      {
+        "id": "Q1",
+        "expected": "1",
+        "given": "B",
+        "ok": true,
+        "feedback": "Correct! The Constitution outlines laws and the government's structure."
+      },
+      {
+        "id": "Q2",
+        "expected": null,
+        "given": "xyz",
+        "ok": false,
+        "feedback": "Constitutional rights are important because they guarantee our freedoms and protect us from unfair treatment by the government."
+      },
+      {
+        "id": "Q3",
+        "expected": "3",
+        "given": "C",
+        "ok": false,
+        "feedback": "The Bill of Rights is a formal declaration of legal and civil rights, protecting individual liberties."
+      }
+    ]
+  },
+  {
+    "module": "Constitution ",
+    "timestamp": 1762280421.310685,
+    "iteration": 2,
+    "score": 0.83,
+    "details": [
+      {
+        "id": "1",
+        "expected": "1",
+        "given": "B",
+        "ok": true,
+        "feedback": "Correct! Option B, 'To explain how the government works and protect our rights,' is the best answer. The Constitution sets up the government and protects everyone's freedoms."
+      },
+      {
+        "id": "2",
+        "expected": null,
+        "given": "Hmmm",
+        "ok": false,
+        "feedback": "The Constitution gives you rights like freedom of speech or religion. These are protected by the Bill of Rights."
+      },
+      {
+        "id": "3",
+        "expected": "1",
+        "given": "B",
+        "ok": true,
+        "feedback": "Correct! The Bill of Rights is a special part of the Constitution that protects your freedoms."
+      }
+    ]
+  },
+  {
+    "module": "Constitution ",
+    "timestamp": 1762280421.3278806,
+    "score": 0.83,
+    "passed": true
+  },
+  {
+    "module": "cell",
+    "timestamp": 1762314569.131841,
+    "iteration": 1,
+    "score": 0.83,
+    "details": [
+      {
+        "id": "Q1",
+        "expected": "3",
+        "given": "B",
+        "ok": true,
+        "feedback": "Correct! 'Cell Wall' is not a main part of animal cells, though it is present in plant cells."
+      },
+      {
+        "id": "Q2",
+        "expected": null,
+        "given": "semi - permeable membrane that allows specific nutrients to pass through",
+        "ok": true,
+        "feedback": "That's a good start. The cell membrane encloses the cell and regulates the movement of substances in and out, acting as a selective barrier."
+      },
+      {
+        "id": "Q3",
+        "expected": "2",
+        "given": "C",
+        "ok": true,
+        "feedback": "Correct! The nucleus controls cell activities and contains the cell's genetic information."
+      }
+    ]
+  },
+  {
+    "module": "cell",
+    "timestamp": 1762314569.1836889,
+    "score": 0.83,
+    "passed": true
+  },
+  {
+    "module": "constitution",
+    "timestamp": 1762314841.2305038,
+    "iteration": 1,
+    "score": 0.5,
+    "details": [
+      {
+        "id": "Q1",
+        "expected": "3",
+        "given": "C",
+        "ok": false,
+        "feedback": "Incorrect. 'Managing international trade' is NOT a function of the Parliament. The functions of the Parliament are Constitutional functions, Lawmaking, Executive accountability, and Financial accountability."
+      },
+      {
+        "id": "Q2",
+        "expected": "2",
+        "given": "D",
+        "ok": false,
+        "feedback": "Incorrect. The Concurrent List includes subjects on which both the Union and State governments can legislate."
+      },
+      {
+        "id": "Q3",
+        "expected": null,
+        "given": "rrrr",
+        "ok": false,
+        "feedback": "Incorrect. Two fundamental rights guaranteed by the Indian Constitution are the Right to Equality and the Right to Freedom."
+      }
+    ]
+  },
+  {
+    "module": "good evening",
+    "timestamp": 1763017147.7188613,
+    "iteration": 1,
+    "score": 0.5,
+    "details": [
+      {
+        "id": "Q1",
+        "expected": "2",
+        "given": "C",
+        "ok": true,
+        "feedback": "Correct! The Judiciary interprets and applies laws."
+      },
+      {
+        "id": "Q2",
+        "expected": "1",
+        "given": "false",
+        "ok": true,
+        "feedback": "Correct! The Judiciary does more than just resolve disputes between citizens; it also ensures other branches of government act within the Constitution."
+      },
+      {
+        "id": "Q3",
+        "expected": null,
+        "given": "intervention when violating the constituitional implementation laws",
+        "ok": false,
+        "feedback": "The Judiciary acts as the custodian of the Constitution. It makes sure all branches of the government follow the Constitution."
+      },
+      {
+        "id": "Q4",
+        "expected": null,
+        "given": "cuz it is",
+        "ok": false,
+        "feedback": "It's important for the Judiciary to check laws passed by Parliament to ensure they don't violate the Constitution. This protects our fundamental rights."
+      },
+      {
+        "id": "Q5",
+        "expected": "2",
+        "given": "A",
+        "ok": false,
+        "feedback": "The Judiciary would review the law's constitutionality to make sure it doesn't violate freedom of speech. The correct answer is C."
+      },
+      {
+        "id": "Q6",
+        "expected": null,
+        "given": "",
+        "ok": false,
+        "feedback": "The Legislature makes laws, the Executive implements them, and the Judiciary makes sure those laws are okay under the Constitution. Each branch can 'check' the others to ensure no one gets too powerful."
+      }
+    ]
+  }
+]

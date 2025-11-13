@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'supreme court'
+
+✅ Search completed in 2.217 seconds
+
+1. Score: 0.7832
+related  expenses Prepares and implements  the budget approved by  Parliament. Consults different  Parliamentary  committees Can function independently  in day-to-day matters and  may consult committees when  required. 154 Exploring Society: India and Beyond | Grade 8 Part 1 The Judiciary — Role of 
+
+2. Score: 0.8030
+Courts for enforcement of these Fundamental Rights. National Syllabus and Teaching Learning  Materials Committee (NSTC)  1. M.C. Pant, Chancellor, National Institute of Educational Planning and  Administration (NIEPA), (Chairperson)  2. Manjul Bhargava, Professor, Princeton University, (Co-Chairpers
+
+3. Score: 0.8620
+only describes how the Legislature and  Executive are given power to govern the country, but it also  lists the specific responsibilities of these organs. To ensure  that the powers of the Legislature are used properly and  responsibilities are followed, the Judiciary is given the unique  and critic
+
+4. Score: 0.8627
+What do you think? The visibility to women is very  low in public life. If Family structure,  social surrounding, economic sector,  political sphere become more open,  women will get a chance to participate  in the decision making process that  can provide a different direction to  politics. For thi
+
+5. Score: 0.8848
+an end to all the problems.  There are several new problems confronting  us. However what is important is that the  people  in  India  have  developed  a  democratic mind-set. In the next chapter we will study the  election process in India.    Please understand. The  basic  structure  of  the  cons
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

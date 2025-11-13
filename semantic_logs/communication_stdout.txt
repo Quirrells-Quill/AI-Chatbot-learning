@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'communication'
+
+✅ Search completed in 2.167 seconds
+
+1. Score: 0.8036
+a medium of communication. In  the olden days, a crier would run in the  streets beating drums and crying out  important news according to the orders of  the king. The news would spread among  people by word of mouth. 5.2 History of Mass Media Printing technology and newspapers  were introduced in I
+
+2. Score: 0.8831
+Julius Caesar’s reign  newspapers  known  as  Acta  Diurna,  meaning acts of everyday, used to be  placed, at public places in Rome. It was  a very effective way of conveying royal  commands to people. In the 7th century  C.E. royal dictates were distributed among  people at public places. In Englan
+
+3. Score: 0.8941
+Phone : 011-26562708 108, 100 Feet Road  Hosdakere Halli Extension Banashankari III Stage Bengaluru 560 085                Phone : 080- 26725740         Navjivan Trust Building P.O.Navjivan  Ahmedabad 380 014        Phone : 079- 27541446 CWC Campus Opp. Dhankal Bus Stop Panihati Kolkata 700 114  Pho
+
+4. Score: 0.8973
+programmes for farmers, workers, the  youth and women. The ‘Vividh Bharati’  programmes are broadcasted in 24 regional  languages as well as 146 dialects of  Indian languages. Lately, various new  channels like ‘Radio Mirchi’ are providing  radio services.  Television : The ‘Delhi Doordarshan  Centr
+
+5. Score: 0.8978
+life to the legislative functions and power of  the Parliament. The Union Executive consists of the following  members:  The President,  The Vice President, and  The Council of Ministers headed by the Prime Minister. The Council of Ministers is chosen from among the MPs of  both houses of Parliam
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt

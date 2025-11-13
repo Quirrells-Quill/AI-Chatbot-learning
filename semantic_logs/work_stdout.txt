@@ -1,0 +1,30 @@
+=== semantic_search_final.py starting ===
+sys.executable: C:\Users\khush\.virtualenvs\storefront-pQETzxzR\Scripts\python.exe
+VIRTUAL_ENV: C:\Users\khush\.virtualenvs\storefront-pQETzxzR
+cwd: C:\Users\khush\OneDrive\Desktop\AI project
+argv: ['C:\\Users\\khush\\OneDrive\\Desktop\\AI project\\semantic_search_final.py']
+🚀 Loading dataset and embeddings...
+✅ Loading embeddings from .npy and texts from CSV...
+⚙️ Building or loading FAISS index...
+✅ Loaded FAISS index from disk.
+
+🔍 Searching for: 'work'
+
+✅ Search completed in 3.277 seconds
+
+1. Score: 0.4849
+doing work on the load?  The way we understand the term ‘work’ in science, work is not done. You climb up the steps of a staircase and reach the second floor of a building just to see the landscape from there.  You may even climb up a tall tree.  If we apply the scientific definition, these activiti
+
+2. Score: 0.5469
+CONCEPTION OF WORK To understand the way we view work and define work from the point of view of science, let us consider some situations: Push a pebble lying on a surface. The pebble moves through a distance. You exerted a force on the pebble and the pebble got displaced. In this situation work is d
+
+3. Score: 0.5941
+is ‘work’. Closely related to work are energy and power. In this chapter we shall study these concepts. All living beings need food.  Living beings have to perform several basic activities to survive.  We call such activities ‘life processes’. The energy for these processes comes from food. We need 
+
+4. Score: 0.6164
+in the way we use the term ‘work’ in day-to-day life and the way we use it in science.  To make this point clear let us consider a few examples. 11.1.1 NOT MUCH ‘WORK’ IN SPITE OF WORKING HARD! Kamali is preparing for examinations. She spends lot of time in studies. She reads books, draws diagrams, 
+
+5. Score: 0.6509
+of situations when the object is not displaced in spite of a force acting on it. • Also think of situations when an object gets displaced in the absence of a force acting on it. • List all the situations that you can think of for each. • Discuss with your friends whether work is done in these situat
+
+📄 Results saved to: C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt
