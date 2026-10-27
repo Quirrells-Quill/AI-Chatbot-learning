@@ -1,0 +1,326 @@
+Thanks — I inspected your uploaded file `final_search3.py` (I’ll cite it when I point to specific places). Below I give **exact line numbers** (for the file you uploaded) where you should *insert* or *replace* code to implement the features you requested:
+
+* dynamic / non-static quiz generation (varied question patterns),
+* use of previous-year question papers (PYQs) in generation,
+* ensuring wrong-answer / failed-evaluation feedback is correlated with the lesson summary,
+* and adding a hook / suggestion for using a local Ollama model (e.g. `deepseekr1.5b`) as an optional step in the pipeline.
+
+> File inspected: `final_search3.py`. 
+
+---
+
+## Summary of the changes & where to edit (exact line numbers)
+
+> Note: line numbers refer to the uploaded file `/mnt/data/final_search3.py`. I include small guidance of what to add/replace and why. I also indicate whether to **insert** (add a new block) or **replace** (overwrite existing block).
+
+---
+
+### 1) Add a PYQ folder/config constant (so the pipeline can load previous-year papers)
+
+**Where:** **INSERT** at **line 52** (immediately after the `SEMANTIC_SCRIPT` definition at line 51).
+
+**Why:** Define where you will drop PYQ files (PDF/TXT/JSON). The worker will later read from this directory and include PYQs in prompts.
+
+**Suggested code to insert (approx. at line 52):**
+
+```python
+# Directory for previous-year question papers (put PYQ files here: .txt/.json/.md/.pdf (see note))
+PYQ_DIR = BASE_DIR / "pyq_papers"
+PYQ_DIR.mkdir(parents=True, exist_ok=True)
+# Allowed extensions to load (you may extend)
+PYQ_EXTENSIONS = [".txt", ".json", ".md"]
+```
+
+---
+
+### 2) Add optional Ollama / local model config & helper (hook to use `deepseekr1.5b` locally)
+
+**Where:** **INSERT** at **line 43** (immediately after `GEMINI_URL` at line 42).
+
+**Why:** Provides an optional path to call a local model (Ollama) instead of or alongside Gemini. You can later call `call_ollama(prompt)` wherever you want to direct generation to the local model.
+
+**Suggested code to insert (approx. at line 43):**
+
+```python
+# Optional: local Ollama / LLM config (set OLLAMA_ENABLED=True to enable local model usage)
+OLLAMA_ENABLED = bool(os.getenv("OLLAMA_ENABLED", False))
+OLLAMA_HOST = os.getenv("OLLAMA_HOST", "http://localhost:11434")  # change if using Ollama HTTP API
+OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "deepseekr1.5b")        # e.g. deepseekr1.5b
+
+def call_ollama(prompt: str, max_tokens: int = 1200, temperature: float = 0.2) -> Tuple[str, Optional[Any]]:
+    """
+    Lightweight wrapper: call Ollama (HTTP) or a local binary. Return (raw_text, parsed_json_or_None).
+    Implementation below is an example — adjust to your Ollama API or subprocess usage.
+    """
+    if not OLLAMA_ENABLED:
+        raise RuntimeError("OLLAMA not enabled")
+    try:
+        payload = {"model": OLLAMA_MODEL, "prompt": prompt, "max_tokens": max_tokens, "temperature": temperature}
+        # Example HTTP call (Ollama provides a local API). If your local setup differs, replace accordingly.
+        r = requests.post(f"{OLLAMA_HOST}/api/generate", json=payload, timeout=120)
+        r.raise_for_status()
+        raw = r.text
+        try:
+            parsed = extract_json_from_text(raw)
+        except Exception:
+            parsed = None
+        return raw, parsed
+    except Exception as e:
+        debug_log_raw({"stage": "call_ollama_error", "exc": str(e)}, tag="call_ollama_error")
+        raise
+```
+
+**How to use:** Set `OLLAMA_ENABLED=true` in your environment and put the model in local Ollama. You can conditionally call `call_ollama()` instead of `call_reasoner()` in the places I mark below.
+
+---
+
+### 3) Make the *final lesson/quiz prompt* request varied question patterns and include PYQs
+
+**Where to modify:** **REPLACE** the final_prompt that is currently defined at **lines 976–987**.
+
+**Why:** The current prompt asks only for 3 questions of simple structure. Replace it with a richer prompt that:
+
+* asks for varied question patterns (recall, reasoning, true/false, matching, short open),
+* requests the model to *simulate* question patterns based on prior quiz patterns and introduce novelty,
+* instructs the model to consult the included PYQs and match question styles / difficulty.
+
+**Exact location to replace:** lines **976–987** (the block that begins `final_prompt = (`). Replace the entire `final_prompt` string with an enhanced template.
+
+**Suggested replacement prompt (insert at line 976):**
+
+```python
+final_prompt = (
+    "You are an expert instructional designer and exam-writer. Using the CONTEXT and the provided "
+    "previous-year question papers (PYQs) if present, produce a JSON object ONLY with the following keys:\n\n"
+    "1) explanation: { title: string, bullets: [string,...] } — a concise lesson summary (3-8 bullets).\n\n"
+    "2) quiz: a list of 6 questions (mix of types) where each question object contains:\n"
+    "   { id: string, type: one of [\"mcq\",\"tf\",\"short\",\"match\",\"reasoning\"],\n"
+    "     difficulty: one of [\"recall\",\"apply\",\"reasoning\",\"analysis\"],\n"
+    "     question: string,\n"
+    "     choices: [..] or null,\n"
+    "     correct_index: int or null,\n"
+    "     answer_explanation: string }\n\n"
+    "Rules for quiz generation:\n"
+    "- Use varied patterns across the 6 questions: at least 2 recall/definition questions, 2 reasoning/application questions, 1 true/false or matching, 1 short answer.\n"
+    "- Where possible mirror the phrasing/difficulty/style seen in the PYQs (if PYQs included), but include at least 2 novel formats/patterns.\n"
+    "- For MCQs, return choices with clear distractors; mark correct_index (0-based).\n"
+    "- For TF, use type 'tf' and use choices [\"True\",\"False\"], correct_index 0 or 1.\n"
+    "- For 'match', return choices as a list of pairs; the answer_explanation should include matching key.\n\n"
+    "3) correlated_feedback: a map of question id -> { outcome_hint: string, linked_summary_bullet_index: [int,...] }\n"
+    "   - For every question, indicate which bullet(s) in the explanation support the correct answer (use bullet indices starting at 0).\n\n"
+    "4) progress_indicator: short string describing expected mastery.\n"
+    "5) remedial_instructions: list of short, targeted steps to remediate common errors.\n\n"
+    "CONTEXT:\n"
+    f"{sem_to_send}\n\n"
+    "PYQ_SUMMARY:\n"
+    "Include any important patterns, key topics or phrasing taken from the PYQs below (if provided).\n\n"
+    f"MODULE: {module_query}\nLearner_age: {learner_age}\n\n"
+    "Return only valid JSON. Do NOT include any extra text or markdown."
+)
+```
+
+**Also:** you must ensure PYQ content is passed into `sem_to_send` (see the next change: inserting code to load PYQs).
+
+---
+
+### 4) Load PYQ files and append their content into the synthesis context (`sem_to_send`) before `final_prompt`
+
+**Where:** **INSERT** block at **line 974** (just after the `sem_to_send = ...` clause at line 972 and before `self.task_queue.put` at line 974–975).
+
+**Why:** Read plain-text (or converted) PYQ files and add a short summary or raw text into the `final_prompt` context so the generating model can match question style and difficulty.
+
+**Suggested insertion (approx. at line 973 — add before the `self.task_queue.put(("pipeline_update", ...))` at 974):**
+
+```python
+# --- Load PYQ files and include into prompt context (if any) ---
+pyq_summary = ""
+try:
+    if PYQ_DIR.exists():
+        pyq_texts = []
+        for p in sorted(PYQ_DIR.iterdir()):
+            if p.suffix.lower() in PYQ_EXTENSIONS:
+                try:
+                    txt = p.read_text(encoding="utf-8")
+                except Exception:
+                    # if PDF: try to call a local converter (outside scope here)
+                    txt = f"(Could not read {p.name})"
+                if txt:
+                    # keep only top N chars per file to avoid huge prompts
+                    pyq_texts.append(f"--- {p.name} ---\n" + txt[:4000])
+        if pyq_texts:
+            pyq_summary = "\n\n".join(pyq_texts)
+            # append a short header so the reasoner knows PYQs exist
+            sem_to_send = sem_to_send + "\n\n--- PREVIOUS-YEAR PAPERS (PYQs) ---\n" + pyq_summary
+except Exception as e:
+    debug_log_raw({"stage":"pyq_load_err","exc":str(e)}, tag="pyq_load_err")
+```
+
+**Notes:** If PYQs are PDFs you must preprocess (OCR/text extract) them into a plain text file inside `PYQ_DIR`. You can also add a small converter script to the repo that extracts PDF text and writes `.txt` files — I can sketch that if you want.
+
+---
+
+### 5) Extend `evaluate_answers_with_reasoner` to return correlated summary & mapping to lesson bullets
+
+**Where:** **REPLACE** the body of `evaluate_answers_with_reasoner(...)` from **line 290** through **line 373** (the whole current function definition block).
+
+**Why:** Ask the grader/reasoner to return not only score/details/advice but also a `correlated_summary` or `correlated_feedback` mapping of wrong question ids to the specific bullets in the lesson (so the UI can show targeted summaries when students fail). That makes the feedback and summary correlated.
+
+**High-level replacements to make:** keep function name and parameters but change the internal prompt to instruct the reasoner to return keys:
+
+* `score` (0..1)
+* `details` (as before)
+* `advice` (one paragraph)
+* `correlated_feedback`: `{ question_id: { expected:..., given:..., bullet_indices: [0,1], short_summary: "..." } }`
+* optionally `next_questions_pattern` to guide remedial quiz generation
+
+**I won't paste the entire function here (long), but**: you must **replace** the prompt string used inside the function to something like:
+
+```text
+"You are an expert grader. Evaluate student's answers ... Return only JSON with keys:
+- score: 0..1
+- details: [...]
+- advice: short remedial paragraph
+- correlated_feedback: map question_id -> {expected, given, ok, bullet_indices: [ints], short_summary: string}
+"
+```
+
+**Exact lines to replace:** **line 290** through **line 373** in your file.
+
+---
+
+### 6) When showing evaluation in the GUI, display the correlated summary mapping (so wrong answers map to lesson bullets)
+
+**Where to insert:** **INSERT** after line **1371** (right after the code that prints `Reasoner feedback / advice`), or more precisely after the `self.output_box.insert("end", f"Reasoner feedback / advice:\n{advice}\n")` line (that is currently at **line 1370–1371**), so the UI will show the correlated summary if present.
+
+**Suggested code to insert (immediately after line ~1371):**
+
+```python
+# If the grader returned correlated_feedback, show it (maps question id -> lesson bullets + short summary)
+corr = eval_res.get("correlated_feedback") or eval_res.get("correlated_summary")
+if corr and isinstance(corr, dict):
+    self.output_box.insert("end", "\nDetailed correlated feedback (question -> lesson bullets / short summary):\n")
+    for qid, info in corr.items():
+        try:
+            bullets_idx = info.get("bullet_indices", [])
+            short_sum = info.get("short_summary", "")
+            self.output_box.insert("end", f" - {qid}: bullets {bullets_idx} -> {short_sum}\n")
+        except Exception:
+            self.output_box.insert("end", f" - {qid}: {str(info)[:200]}\n")
+    self.output_box.see("end")
+```
+
+**Why here:** if a student fails a question, you want the UI to immediately show which lesson bullets support the correct answer and give a compact remedial summary.
+
+---
+
+### 7) Improve `produce_remedial_lesson` to generate remedial items linked to wrong questions and PYQs
+
+**Where:** **REPLACE** the current `produce_remedial_lesson` function body between **lines 374–416**.
+
+**Why:** This function already asks the model to produce a simplified lesson + quiz. Update it so it accepts `correlated_feedback` (if provided) and the `PYQ_SUMMARY` and returns a `lesson_json` where each remedial quiz question maps to the failed question ids and references the specific bullets.
+
+**Suggested changes (high-level):**
+
+* Expand prompt to include `correlated_feedback` (so the remedial lesson can be targeted).
+* Ask for 3 short targeted questions (mix) tied to the bullet indices given.
+* Return JSON keys exactly as used by the UI: `explanation`, `quiz`, `remedial_instructions`, and an optional `source_links` pointing to the PYQ files used.
+
+**Exact replacement lines:** **374–416**.
+
+---
+
+### 8) (Optional) Route reasoner calls to Ollama if `OLLAMA_ENABLED` is set
+
+**Where to change:** the call sites that call `call_reasoner()` — for example:
+
+* In `call_reasoner()` usages inside `evaluate_answers_with_reasoner` (line ~318), `produce_remedial_lesson` (line ~401), `_worker_single_lesson` (line ~881), and `_worker_full_flow` (line ~992 / the `raw, parsed = call_reasoner(final_prompt, ...)` at **line 992**). Replace or wrap those calls so that if `OLLAMA_ENABLED` is True, you call `call_ollama()` first, otherwise fallback to `call_reasoner()`.
+
+**Exact places to add conditional calls (examples & their line numbers):**
+
+* `_worker_full_flow` — **line 992** (right now `raw, parsed = call_reasoner(final_prompt,...)`) — modify to:
+
+```python
+if OLLAMA_ENABLED:
+    raw, parsed = call_ollama(final_prompt, max_tokens=1200, temperature=0.18)
+else:
+    raw, parsed = call_reasoner(final_prompt, model=None, max_tokens=1200, temperature=0.18, stream=False, try_extract_json=True)
+```
+
+* Similarly wrap calls in `_worker_single_lesson` (call at around **line ~904**), and `evaluate_answers_with_reasoner`/`produce_remedial_lesson`.
+
+---
+
+## Other considerations & suggestions (design & pipeline)
+
+Below are practical considerations and suggestions so the changes actually work well in practice.
+
+1. **Preprocess PYQs (PDF → text):**
+
+   * If your PYQs are PDFs, you need a PDF→text step (e.g., `pdftotext`, `pdfminer`, `pytesseract` for scanned PDFs). Add a `scripts/convert_pyqs.py` that converts each PDF into `.txt` inside `PYQ_DIR`. The final prompt must include only concise extracts (title, year, typical question stems) — not entire PDFs.
+
+2. **Prompt size / truncation:**
+
+   * You already have `MAX_PROMPT_CHARS`. When appending many PYQs, keep only a short extract per paper (e.g., first 2–3 questions) or produce an automatic PYQ *summary* locally (script that extracts question stems and topics) and include that instead of the whole PDF text.
+
+3. **Security & privacy for local model:**
+
+   * If you enable `OLLAMA_ENABLED`, ensure the local model (and the host) is properly sandboxed, and that sensitive data is not inadvertently logged.
+
+4. **Question pattern generation guidance:**
+
+   * The reasoner prompt should include explicit examples of each pattern you expect (example MCQ, example reasoning question, example TF, example match), plus how to format `answer_explanation` and `correlated_feedback`. Models follow examples well.
+
+5. **Storing mapping from bullets → ids:**
+
+   * When generating lesson bullets, add stable indices (0..n-1). Then the grader can point to these indices in `correlated_feedback`.
+
+6. **Evaluation robustness:**
+
+   * `evaluate_answers_with_reasoner` should normalize multiple answer formats (letters A/B vs indices 0/1 vs full-text answers). You already have some local fallback logic; expand it to canonicalize answers first.
+
+7. **Human oversight & QA:**
+
+   * For high-stakes assessments, add a review step (or flag questions generated from PYQs as "modeled on PYQ X, Y" so a human can validate).
+
+8. **Logging & debug:**
+
+   * Keep `debug_log_raw` outputs for new calls (PYQ loaders, call_ollama) to help debugging.
+
+---
+
+## Quick map of exact lines to edit (recap)
+
+* **Insert PYQ config:** **line 52** (after `SEMANTIC_SCRIPT`) — add `PYQ_DIR`, `PYQ_EXTENSIONS`.
+* **Insert Ollama config & call_ollama helper:** **line 43** (after `GEMINI_URL`) — add local-model config & function.
+* **Insert PYQ loader into `_worker_full_flow`:** **insert after line 973** (before the `self.task_queue.put(...)` at 974) — add code that reads files from `PYQ_DIR` and appends to `sem_to_send`.
+* **Replace `final_prompt` with enhanced prompt:** **replace lines 976–987** (the current `final_prompt` block).
+* **Replace `evaluate_answers_with_reasoner` body:** **lines 290–373** (make it return `correlated_feedback` and more structured output).
+* **Replace `produce_remedial_lesson` body:** **lines 374–416** (include PYQ and correlated feedback in prompt).
+* **Add UI display of correlated feedback:** **insert** after **line 1371** (display `eval_res['correlated_feedback']` if present).
+* **Conditionally call Ollama instead of call_reasoner:** change call sites (e.g. **line 992** in `_worker_full_flow`, and similar lines in `_worker_single_lesson` and the evaluation/remediation helpers) to choose `call_ollama` when `OLLAMA_ENABLED` is true.
+
+---
+
+## Example small patch for one change (so you can copy/paste)
+
+**Replace at line 992** (simple guarded model call — good to paste verbatim):
+
+```python
+# was: raw, parsed = call_reasoner(final_prompt, model=None, max_tokens=1200, temperature=0.18, stream=False, try_extract_json=True)
+if OLLAMA_ENABLED:
+    raw, parsed = call_ollama(final_prompt, max_tokens=1200, temperature=0.18)
+else:
+    raw, parsed = call_reasoner(final_prompt, model=None, max_tokens=1200, temperature=0.18, stream=False, try_extract_json=True)
+```
+
+---
+
+## Final notes / offer
+
+* I deliberately gave **exact line numbers** from your uploaded file so you can make minimal edits. (File inspected: `final_search3.py`.) 
+* If you want, I can:
+
+  * produce the **full code blocks** for the `evaluate_answers_with_reasoner` and `produce_remedial_lesson` replacements (they are longer) and show the exact patch to paste into your file; or
+  * create a small **helper script** to preprocess PYQ PDFs into text files in `PYQ_DIR`; or
+  * show a **diff/patch** file you can apply with `git apply`.
+* Tell me which of the above you want next (e.g., “give me the full new `evaluate_answers_with_reasoner` function to paste at lines 290–373”), and I’ll produce the exact replacement block ready to paste.
