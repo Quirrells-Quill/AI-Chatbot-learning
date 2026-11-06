@@ -4,7 +4,7 @@ from pathlib import Path
 from tqdm import tqdm
 
 # === Paths ===
-folder = Path(r"C:\Users\khush\OneDrive\Desktop\AI project\Customized training data")
+folder = Path(__file__).resolve().parent / "Customized training data"
 output_folder = folder / "csv_files_for_the_training_data"
 output_folder.mkdir(exist_ok=True)
 

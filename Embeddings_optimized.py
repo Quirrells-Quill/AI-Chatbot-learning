@@ -1,3 +1,4 @@
+from pathlib import Path
 import os
 import json
 import time
@@ -8,10 +9,11 @@ from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # ---------- CONFIG ----------
-CSV_PATH = r"C:\Users\khush\OneDrive\Desktop\AI project\Customized training data\csv_files_for_the_training_data\dataset_chunked.csv"
-OUT_CSV = r"C:\Users\khush\OneDrive\Desktop\AI project\Customized training data\csv_files_for_the_training_data\dataset_with_embeddings.csv"
-EMB_NPY = r"C:\Users\khush\OneDrive\Desktop\AI project\Customized training data\csv_files_for_the_training_data\embeddings.npy"
-FAISS_INDEX_PATH = r"C:\Users\khush\OneDrive\Desktop\AI project\Customized training data\csv_files_for_the_training_data\faiss_index.bin"
+BASE_DIR = Path(__file__).resolve().parent / "Customized training data" / "csv_files_for_the_training_data"
+CSV_PATH = str(BASE_DIR / "dataset_chunked.csv")
+OUT_CSV = str(BASE_DIR / "dataset_with_embeddings.csv")
+EMB_NPY = str(BASE_DIR / "embeddings.npy")
+FAISS_INDEX_PATH = str(BASE_DIR / "faiss_index.bin")
 
 OLLAMA_BASE = "http://localhost:11434/api"   # Ollama default base
 MODEL = "nomic-embed-text"                   # your embedding model (must be pulled)

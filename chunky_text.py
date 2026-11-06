@@ -4,7 +4,7 @@ from tqdm import tqdm
 from pathlib import Path
 
 # === Paths ===
-folder = Path(r"C:\Users\khush\OneDrive\Desktop\AI project\Customized training data\csv_files_for_the_training_data")
+folder = Path(__file__).resolve().parent / "Customized training data" / "csv_files_for_the_training_data"
 raw_csv_path = folder / "dataset_raw.csv"
 chunked_csv_path = folder / "dataset_chunked.csv"
 

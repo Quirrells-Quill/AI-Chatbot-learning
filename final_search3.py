@@ -44,7 +44,7 @@ GEMINI_URL = f"{GEMINI_BASE}/{REASONING_MODEL}:generateContent"
 # safety: maximum characters we'll send in a single prompt (configurable via env)
 MAX_PROMPT_CHARS = int(os.getenv("MAX_PROMPT_CHARS", "20000"))
 
-BASE_DIR = Path(r"C:\Users\khush\OneDrive\Desktop\AI project")
+BASE_DIR = Path(__file__).resolve().parent
 FILE_PATH = BASE_DIR / "Temp_semantic.txt"
 QUERY_PATH = BASE_DIR / "query.txt"
 REASONING_MODEL_TXT = BASE_DIR / "reasoningmodel.txt"

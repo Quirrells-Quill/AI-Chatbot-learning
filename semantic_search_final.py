@@ -39,10 +39,12 @@ except Exception:
         # last resort: do nothing (we'll still try to avoid crash)
         pass
 
-CSV_PATH = r"C:\Users\khush\OneDrive\Desktop\AI project\Customized training data\csv_files_for_the_training_data\dataset_with_embeddings.csv"
-EMB_NPY_PATH = r"C:\Users\khush\OneDrive\Desktop\AI project\Customized training data\csv_files_for_the_training_data\embeddings.npy"
-TEXTS_CSV_PATH = r"C:\Users\khush\OneDrive\Desktop\AI project\Customized training data\csv_files_for_the_training_data\texts.csv"
-FAISS_INDEX_PATH = r"C:\Users\khush\OneDrive\Desktop\AI project\Customized training data\csv_files_for_the_training_data\faiss_index.bin"
+BASE_DIR = Path(__file__).resolve().parent
+TRAIN_DIR = BASE_DIR / "Customized training data" / "csv_files_for_the_training_data"
+CSV_PATH = str(TRAIN_DIR / "dataset_with_embeddings.csv")
+EMB_NPY_PATH = str(TRAIN_DIR / "embeddings.npy")
+TEXTS_CSV_PATH = str(TRAIN_DIR / "texts.csv")
+FAISS_INDEX_PATH = str(TRAIN_DIR / "faiss_index.bin")
 
 FULL_INDEX_MODE = "ivf"  # or "flat"
 N_LIST = 256
@@ -245,8 +247,8 @@ if __name__ == "__main__":
 
     get_embedding = get_embedding_resilient
 
-    query_file = r"C:\Users\khush\OneDrive\Desktop\AI project\query.txt"
-    output_path = r"C:\Users\khush\OneDrive\Desktop\AI project\Temp_semantic.txt"
+    query_file = str(BASE_DIR / "query.txt")
+    output_path = str(BASE_DIR / "Temp_semantic.txt")
 
     try:
         with open(query_file, "r", encoding="utf-8") as f:

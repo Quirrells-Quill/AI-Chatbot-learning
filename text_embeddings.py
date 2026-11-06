@@ -1,3 +1,4 @@
+from pathlib import Path
 import pandas as pd
 import requests
 import numpy as np
@@ -6,9 +7,10 @@ from tqdm import tqdm
 import time
 
 # === Paths ===
-csv_path = r"C:\Users\khush\OneDrive\Desktop\AI project\Customized training data\csv_files_for_the_training_data\dataset_chunked.csv"
-output_csv_path = r"C:\Users\khush\OneDrive\Desktop\AI project\Customized training data\csv_files_for_the_training_data\dataset_with_embeddings.csv"
-faiss_index_path = r"C:\Users\khush\OneDrive\Desktop\AI project\Customized training data\csv_files_for_the_training_data\faiss_index.bin"
+BASE_DIR = Path(__file__).resolve().parent / "Customized training data" / "csv_files_for_the_training_data"
+csv_path = str(BASE_DIR / "dataset_chunked.csv")
+output_csv_path = str(BASE_DIR / "dataset_with_embeddings.csv")
+faiss_index_path = str(BASE_DIR / "faiss_index.bin")
 
 # ollama embedding model
 MODEL = "nomic-embed-text"
